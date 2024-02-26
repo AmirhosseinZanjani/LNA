@@ -5,22 +5,6 @@ K {}
 V {}
 S {}
 E {}
-N 1233.75 -1187.5 1233.75 -1092.5 {
-lab=InP_LNA}
-N 1108.75 -1187.5 1108.75 -1092.5 {
-lab=InN_LNA}
-N 978.75 -1187.5 978.75 -1092.5 {
-lab=VSS_LNA}
-N 853.75 -1187.5 853.75 -1092.5 {
-lab=VDD_LNA}
-N 1233.75 -732.5 1233.75 -637.5 {
-lab=CM_LNA}
-N 1115 -736.25 1115 -641.25 {
-lab=OutP_LNA}
-N 990 -736.25 990 -641.25 {
-lab=OutN_LNA}
-N 840 -731.25 840 -636.25 {
-lab=Clock_CMFB_LNA}
 N 2000 -725 2000 -705 {
 lab=VT2}
 N 2000 -725 2260 -725 {
@@ -32,7 +16,7 @@ lab=#net1}
 N 2260 -645 2260 -585 {
 lab=#net2}
 N 2040 -345 2220 -345 {
-lab=Vbias}
+lab=vbias}
 N 2000 -285 2260 -285 {
 lab=VSS_LNA}
 N 2000 -315 2000 -285 {
@@ -40,7 +24,7 @@ lab=VSS_LNA}
 N 2260 -315 2260 -285 {
 lab=VSS_LNA}
 N 2080 -395 2130 -395 {
-lab=Vbias}
+lab=vbias}
 N 2130 -775 2130 -725 {
 lab=VT2}
 N 2130 -875 2130 -835 {
@@ -248,9 +232,9 @@ lab=OutP_LNA}
 N 2870 -855 2870 -805 {
 lab=drain_m19}
 N 2390 -395 2450 -395 {
-lab=Vbias}
+lab=vbias}
 N 2130 -395 2390 -395 {
-lab=Vbias}
+lab=vbias}
 N 3070 -855 3070 -805 {
 lab=drain_m18}
 N 2000 -555 2870 -555 {
@@ -272,9 +256,9 @@ lab=drain_m18}
 N 3350 -1095 3390 -1095 {
 lab=drain_m19}
 N 2130 -395 2130 -345 {
-lab=Vbias}
+lab=vbias}
 N 2450 -395 2450 -345 {
-lab=Vbias}
+lab=vbias}
 N 2490 -485 2490 -425 {
 lab=#net3}
 N 3430 -855 3430 -795 {
@@ -309,24 +293,6 @@ N 2000 -475 2000 -415 {
 lab=#net1}
 N 2260 -475 2260 -415 {
 lab=#net2}
-N 1730 -495 1730 -465 {
-lab=VDD_LNA}
-N 1730 -405 1730 -365 {
-lab=Vbias}
-N 1700 -335 1730 -335 {
-lab=VSS_LNA}
-N 1700 -335 1700 -285 {
-lab=VSS_LNA}
-N 1700 -285 1730 -285 {
-lab=VSS_LNA}
-N 1730 -305 1730 -285 {
-lab=VSS_LNA}
-N 1770 -335 1800 -335 {
-lab=Vbias}
-N 1800 -385 1800 -335 {
-lab=Vbias}
-N 1730 -385 1800 -385 {
-lab=Vbias}
 N 2130 -835 2130 -775 {
 lab=VT2}
 N 2490 -1045 2490 -775 {
@@ -335,8 +301,6 @@ N 2430 -1075 2430 -1015 {
 lab=#net3}
 N 2430 -1015 2490 -1015 {
 lab=#net3}
-N 1730 -285 1970 -285 {
-lab=VSS_LNA}
 N 3725 -425 3755 -425 {
 lab=OutP_LNA}
 N 3735 -795 3765 -795 {
@@ -456,7 +420,7 @@ lab=CM_LNA}
 N 4245 -1025 4265 -1025 {
 lab=CM_LNA}
 N 3955 -1036.875 3955 -1005 {
-lab=Vbias}
+lab=vbias}
 N 3430 -425 3545 -425 {
 lab=OutP_LNA}
 N 4385 -425 4470 -425 {
@@ -465,22 +429,24 @@ N 3955 -390 3955 -325 {
 lab=#net4}
 N 3955 -425 3955 -390 {
 lab=#net4}
-C {devices/iopin.sym} 1233.75 -1187.5 3 0 {name=p8 lab=InP_LNA}
-C {devices/iopin.sym} 1108.75 -1187.5 3 0 {name=p9 lab=InN_LNA}
-C {devices/iopin.sym} 978.75 -1187.5 3 0 {name=p10 lab=VSS_LNA}
-C {devices/iopin.sym} 853.75 -1187.5 3 0 {name=p11 lab=VDD_LNA}
-C {devices/lab_pin.sym} 1233.75 -1092.5 3 0 {name=p12 sig_type=std_logic lab=InP_LNA}
-C {devices/lab_pin.sym} 1108.75 -1092.5 3 0 {name=p13 sig_type=std_logic lab=InN_LNA}
-C {devices/lab_pin.sym} 978.75 -1092.5 3 0 {name=p14 sig_type=std_logic lab=VSS_LNA}
-C {devices/lab_pin.sym} 853.75 -1092.5 3 0 {name=p15 sig_type=std_logic lab=VDD_LNA}
-C {devices/iopin.sym} 1233.75 -732.5 3 0 {name=p33 lab=CM_LNA}
-C {devices/lab_pin.sym} 1233.75 -637.5 3 0 {name=p26 sig_type=std_logic lab=CM_LNA}
-C {devices/opin.sym} 1115 -736.25 3 0 {name=p28 lab=OutP_LNA}
-C {devices/opin.sym} 990 -736.25 3 0 {name=p47 lab=OutN_LNA}
-C {devices/lab_pin.sym} 1115 -641.25 1 1 {name=p49 sig_type=std_logic lab=OutP_LNA}
-C {devices/lab_pin.sym} 990 -641.25 1 1 {name=p50 sig_type=std_logic lab=OutN_LNA}
-C {devices/iopin.sym} 840 -731.25 3 0 {name=p53 lab=Clock_CMFB_LNA}
-C {devices/lab_pin.sym} 840 -636.25 3 0 {name=p54 sig_type=std_logic lab=Clock_CMFB_LNA}
+N 1740 -285 1970 -285 {
+lab=VSS_LNA}
+N 1740 -315 1740 -285 {
+lab=VSS_LNA}
+N 1740 -390 1740 -375 {
+lab=vbias}
+N 1740 -390 1790 -390 {
+lab=vbias}
+N 1790 -390 1790 -345 {
+lab=vbias}
+N 1780 -345 1790 -345 {
+lab=vbias}
+N 1720 -345 1740 -345 {
+lab=VSS_LNA}
+N 1720 -345 1720 -285 {
+lab=VSS_LNA}
+N 1720 -285 1740 -285 {
+lab=VSS_LNA}
 C {sky130_fd_pr/pfet_01v8_lvt.sym} 1980 -675 0 0 {name=M4
 L=10
 W=90
@@ -623,9 +589,9 @@ spiceprefix=X
 }
 C {sky130_fd_pr/nfet_01v8_lvt.sym} 4450 -325 0 0 {name=M23
 L=20
-W=6
+W=10
 nf=1 
-mult=7
+mult=10
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -637,9 +603,9 @@ spiceprefix=X
 }
 C {sky130_fd_pr/nfet_01v8_lvt.sym} 3450 -325 0 1 {name=M25
 L=20
-W=6
+W=10
 nf=1 
-mult=7
+mult=10
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -654,7 +620,6 @@ C {devices/lab_pin.sym} 2870 -725 0 0 {name=p18 sig_type=std_logic lab=drain_m19
 C {devices/lab_pin.sym} 2260 -725 0 1 {name=p21 sig_type=std_logic lab=VT2}
 C {devices/ngspice_get_value.sym} 2010 -1065 0 0 {name=r46 node=v(@m.xm1.msky130_fd_pr__pfet_01v8_lvt[vth])
 descr="vth"}
-C {devices/lab_pin.sym} 2080 -395 0 0 {name=p19 sig_type=std_logic lab=Vbias}
 C {devices/ngspice_get_value.sym} 2010 -1095 0 0 {name=r24 node=v(@m.xm1.msky130_fd_pr__pfet_01v8_lvt[vgs])
 descr="vgs"}
 C {devices/ngspice_get_value.sym} 2560 -1095 0 0 {name=r25 node=v(@m.xm2.msky130_fd_pr__pfet_01v8_lvt[vgs])
@@ -723,14 +688,6 @@ C {devices/ngspice_get_value.sym} 4550 -1015 0 0 {name=r70 node=v(@m.xm21.msky13
 descr="vds"}
 C {devices/ngspice_get_expr.sym} 4550 -985 0 0 {name=r71 node="[format %.3g [expr [ngspice::get_voltage \\\{@m.xm21.msky130_fd_pr__pfet_01v8_lvt[vds]\\\}] - [ngspice::get_voltage \\\{@m.xm21.msky130_fd_pr__pfet_01v8_lvt[vgs]\\\}] + [ngspice::get_voltage \\\{@m.xm21.msky130_fd_pr__pfet_01v8_lvt[vth]\\\}]]]"
 descr="vds-vod"}
-C {devices/ngspice_get_value.sym} 1660 -345 0 1 {name=r72 node=v(@m.xm8.msky130_fd_pr__nfet_01v8_lvt[vth])
-descr="vth"}
-C {devices/ngspice_get_value.sym} 1660 -375 0 1 {name=r73 node=v(@m.xm8.msky130_fd_pr__nfet_01v8_lvt[vgs])
-descr="vgs"}
-C {devices/ngspice_get_expr.sym} 1660 -315 0 1 {name=r74 node="[format %.2g [expr [ngspice::get_voltage \\\{@m.xm8.msky130_fd_pr__nfet_01v8_lvt[vgs]\\\}] - [ngspice::get_voltage \\\{@m.xm8.msky130_fd_pr__nfet_01v8_lvt[vth]\\\}]]]"
-descr="vod"}
-C {devices/ngspice_get_value.sym} 1660 -285 0 1 {name=r75 node=v(@m.xm8.msky130_fd_pr__nfet_01v8_lvt[vds])
-descr="vds"}
 C {devices/ngspice_get_value.sym} 2320 -335 0 0 {name=r77 node=v(@m.xm9.msky130_fd_pr__nfet_01v8_lvt[vth])
 descr="vth"}
 C {devices/ngspice_get_value.sym} 2320 -365 0 0 {name=r78 node=v(@m.xm9.msky130_fd_pr__nfet_01v8_lvt[vgs])
@@ -797,22 +754,6 @@ C {devices/ngspice_get_value.sym} 3160 -1005 0 0 {name=r59 node=v(@m.xm17.msky13
 descr="vds"}
 C {devices/ngspice_get_expr.sym} 3160 -975 0 0 {name=r60 node="[format %.3g [expr [ngspice::get_voltage \\\{@m.xm17.msky130_fd_pr__pfet_01v8_lvt[vds]\\\}] - [ngspice::get_voltage \\\{@m.xm17.msky130_fd_pr__pfet_01v8_lvt[vgs]\\\}] + [ngspice::get_voltage \\\{@m.xm17.msky130_fd_pr__pfet_01v8_lvt[vth]\\\}]]]"
 descr="vds-vod"}
-C {devices/isource.sym} 1730 -435 0 1 {name=I0 value=50n}
-C {sky130_fd_pr/nfet_01v8_lvt.sym} 1750 -335 0 1 {name=M3
-L=20
-W=10
-nf=1 
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8_lvt
-spiceprefix=X
-}
-C {devices/lab_pin.sym} 1800 -385 0 1 {name=p48 sig_type=std_logic lab=Vbias}
 C {sky130_fd_pr/nfet_01v8_lvt.sym} 2470 -345 0 0 {name=M6
 L=20
 W=10
@@ -849,14 +790,12 @@ C {devices/lab_pin.sym} 3885 -695 0 0 {name=p67 sig_type=std_logic lab=VDD_LNA}
 C {LNA/tg.sym} 4275 -675 3 0 {name=x6}
 C {devices/lab_pin.sym} 4185 -695 0 0 {name=p68 sig_type=std_logic lab=VDD_LNA}
 C {devices/lab_pin.sym} 4185 -655 2 1 {name=p69 sig_type=std_logic lab=VSS_LNA}
-C {devices/lab_pin.sym} 3955 -1035 0 0 {name=p74 sig_type=std_logic lab=Vbias}
 C {devices/lab_pin.sym} 4315 -825 2 0 {name=p39 sig_type=std_logic lab=Q1}
 C {devices/lab_pin.sym} 4315 -575 2 0 {name=p40 sig_type=std_logic lab=Q2}
 C {devices/lab_pin.sym} 2388.75 -675 2 0 {name=p29 sig_type=std_logic lab=InN_LNA}
 C {devices/lab_pin.sym} 2963.75 -285 3 0 {name=p30 sig_type=std_logic lab=VSS_LNA}
 C {devices/lab_pin.sym} 2840 -635 3 0 {name=p2 sig_type=std_logic lab=VSS_LNA}
 C {devices/lab_pin.sym} 3090 -645 3 0 {name=p20 sig_type=std_logic lab=VSS_LNA}
-C {devices/lab_pin.sym} 1730 -495 0 0 {name=p22 sig_type=std_logic lab=VDD_LNA}
 C {devices/lab_pin.sym} 2383.75 -1125 1 0 {name=p23 sig_type=std_logic lab=VDD_LNA}
 C {devices/lab_pin.sym} 4265 -1025 2 0 {name=p3 sig_type=std_logic lab=CM_LNA}
 C {devices/lab_pin.sym} 2980 -705 0 0 {name=p1 sig_type=std_logic lab=CM_LNA}
@@ -869,3 +808,30 @@ C {devices/lab_pin.sym} 1710 -1190 1 0 {name=p16 sig_type=std_logic lab=VDD_LNA}
 C {devices/lab_pin.sym} 1710 -1040 3 0 {name=p24 sig_type=std_logic lab=VSS_LNA}
 C {devices/lab_pin.sym} 1840 -1140 2 0 {name=p25 sig_type=std_logic lab=Q1}
 C {devices/lab_pin.sym} 1840 -1100 2 0 {name=p27 sig_type=std_logic lab=Q2}
+C {devices/lab_pin.sym} 2080 -395 2 1 {name=p19 sig_type=std_logic lab=vbias}
+C {devices/lab_pin.sym} 3955 -1035 2 1 {name=p37 sig_type=std_logic lab=vbias}
+C {devices/iopin.sym} 977.5 -737.5 2 0 {name=p8 lab=InP_LNA}
+C {devices/iopin.sym} 975 -686.25 2 0 {name=p9 lab=InN_LNA}
+C {devices/iopin.sym} 972.5 -627.5 2 0 {name=p10 lab=VSS_LNA}
+C {devices/iopin.sym} 975 -583.75 2 0 {name=p11 lab=VDD_LNA}
+C {devices/iopin.sym} 967.5 -523.75 2 0 {name=p33 lab=CM_LNA}
+C {devices/iopin.sym} 1120 -583.75 0 0 {name=p31 lab=OutP_LNA}
+C {devices/iopin.sym} 1120 -626.25 0 0 {name=p32 lab=OutN_LNA}
+C {devices/iopin.sym} 971.25 -467.5 2 0 {name=p35 lab=Clock_CMFB_LNA}
+C {sky130_fd_pr/nfet_01v8_lvt.sym} 1760 -345 0 1 {name=M3
+L=20
+W=10
+nf=1 
+mult=1
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=nfet_01v8_lvt
+spiceprefix=X
+}
+C {devices/isource.sym} 1740 -420 0 0 {name=I0 value=50n}
+C {devices/lab_pin.sym} 1740 -450 1 0 {name=p12 sig_type=std_logic lab=VDD_LNA}
+C {devices/lab_pin.sym} 1790 -345 0 1 {name=p13 sig_type=std_logic lab=vbias}

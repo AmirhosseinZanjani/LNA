@@ -95,6 +95,56 @@ N -520 180 -380 180 {
 lab=#net5}
 N -630 180 -580 180 {
 lab=VINN1}
+N 570 -240 600 -240 {
+lab=#net6}
+N 600 -240 600 -50 {
+lab=#net6}
+N 600 10 600 170 {
+lab=#net7}
+N 760 -240 790 -240 {
+lab=#net8}
+N 930 -240 930 -50 {
+lab=outn2}
+N 930 10 930 170 {
+lab=outp2}
+N 730 170 790 170 {
+lab=#net9}
+N 600 -240 630 -240 {
+lab=#net6}
+N 690 -240 700 -240 {
+lab=#net10}
+N 660 -260 730 -260 {
+lab=vss}
+N 660 170 670 170 {
+lab=#net7}
+N 540 170 600 170 {
+lab=#net7}
+N 700 150 820 150 {
+lab=vss}
+N 600 170 670 170 {
+lab=#net7}
+N 670 150 700 150 {
+lab=vss}
+N 480 -260 660 -260 {
+lab=vss}
+N 450 150 670 150 {
+lab=vss}
+N 850 170 870 170 {
+lab=#net11}
+N 820 150 900 150 {
+lab=vss}
+N 850 -240 930 -240 {
+lab=outn2}
+N 420 -260 490 -260 {
+lab=vss}
+N 390 150 450 150 {
+lab=vss}
+N 720 -260 820 -260 {
+lab=vss}
+N 290 -240 390 -240 {
+lab=outp}
+N 290 170 360 170 {
+lab=outn}
 C {LNA/LNA_ac.sym} 20 -50 0 0 {name=x1}
 C {devices/vsource.sym} -527.5 -582.5 0 0 {name=V1 value=1.8}
 C {devices/lab_pin.sym} -527.5 -552.5 3 0 {name=p1 sig_type=std_logic lab=0}
@@ -132,25 +182,23 @@ tclcommand="xschem netlist; xschem simulate"}
 C {devices/code.sym} -1096.25 -626.25 0 0 {name=STIMULI
 only_toplevel=false
 value="
-.options savecurrents
+.options savecurrents 
+.options gmin=1e-13
 *ic v(VM5)=0.9 v(VM6)=0.9
 .control
 
-
 save all
-
-save @m.xm11.msky130_fd_pr__pfet_01v8_lvt[id]
-save @m.xm11.msky130_fd_pr__pfet_01v8_lvt[vgs]
 
 
 *nmos
-save @m.xm3.msky130_fd_pr__nfet_01v8_lvt[vgs]
-save @m.xm3.msky130_fd_pr__nfet_01v8_lvt[vth]
-save @m.xm3.msky130_fd_pr__nfet_01v8_lvt[vds]
+save @m.xm11.msky130_fd_pr__nfet_01v8_lvt[vgs]
+save @m.xm4.msky130_fd_pr__nfet_01v8_lvt[vth]
+save @m.xm4.msky130_fd_pr__nfet_01v8_lvt[vds]
 
-save @m.xm6.msky130_fd_pr__nfet_01v8_lvt[vgs]
-save @m.xm6.msky130_fd_pr__nfet_01v8_lvt[vth]
-save @m.xm6.msky130_fd_pr__nfet_01v8_lvt[vds]
+
+save @m.xm5.msky130_fd_pr__nfet_01v8_lvt[vgs]
+save @m.xm5.msky130_fd_pr__nfet_01v8_lvt[vth]
+save @m.xm5.msky130_fd_pr__nfet_01v8_lvt[vds]
 
 save @m.xm8.msky130_fd_pr__nfet_01v8_lvt[vgs]
 save @m.xm8.msky130_fd_pr__nfet_01v8_lvt[vth]
@@ -160,91 +208,79 @@ save @m.xm9.msky130_fd_pr__nfet_01v8_lvt[vgs]
 save @m.xm9.msky130_fd_pr__nfet_01v8_lvt[vth]
 save @m.xm9.msky130_fd_pr__nfet_01v8_lvt[vds]
 
-save @m.xm18.msky130_fd_pr__nfet_01v8_lvt[vgs]
-save @m.xm18.msky130_fd_pr__nfet_01v8_lvt[vth]
-save @m.xm18.msky130_fd_pr__nfet_01v8_lvt[vds]
+save @m.xm7.msky130_fd_pr__nfet_01v8_lvt[vgs]
+save @m.xm7.msky130_fd_pr__nfet_01v8_lvt[vth]
+save @m.xm7.msky130_fd_pr__nfet_01v8_lvt[vds]
 
-save @m.xm19.msky130_fd_pr__nfet_01v8_lvt[vgs]
-save @m.xm19.msky130_fd_pr__nfet_01v8_lvt[vth]
-save @m.xm19.msky130_fd_pr__nfet_01v8_lvt[vds]
+save @m.xm11.msky130_fd_pr__nfet_01v8_lvt[vgs]
+save @m.xm11.msky130_fd_pr__nfet_01v8_lvt[vth]
+save @m.xm11.msky130_fd_pr__nfet_01v8_lvt[vds]
 
-save @m.xm25.msky130_fd_pr__nfet_01v8_lvt[vgs]
-save @m.xm25.msky130_fd_pr__nfet_01v8_lvt[vth]
-save @m.xm25.msky130_fd_pr__nfet_01v8_lvt[vds]
+
+save @m.xm12.msky130_fd_pr__nfet_01v8_lvt[vgs]
+save @m.xm12.msky130_fd_pr__nfet_01v8_lvt[vth]
+save @m.xm12.msky130_fd_pr__nfet_01v8_lvt[vds]
+
+
+save @m.xm13.msky130_fd_pr__nfet_01v8_lvt[vgs]
+save @m.xm13.msky130_fd_pr__nfet_01v8_lvt[vth]
+save @m.xm13.msky130_fd_pr__nfet_01v8_lvt[vds]
+
+
+save @m.xm10.msky130_fd_pr__nfet_01v8_lvt[vgs]
+save @m.xm10.msky130_fd_pr__nfet_01v8_lvt[vth]
+save @m.xm10.msky130_fd_pr__nfet_01v8_lvt[vds]
+
+
+save @m.xm11.msky130_fd_pr__nfet_01v8_lvt[vgs]
+save @m.xm11.msky130_fd_pr__nfet_01v8_lvt[vth]
+save @m.xm11.msky130_fd_pr__nfet_01v8_lvt[vds]
+
+
+save @m.xm12.msky130_fd_pr__nfet_01v8_lvt[vgs]
+save @m.xm12.msky130_fd_pr__nfet_01v8_lvt[vth]
+save @m.xm12.msky130_fd_pr__nfet_01v8_lvt[vds]
+
+
+save @m.xm13.msky130_fd_pr__nfet_01v8_lvt[vgs]
+save @m.xm13.msky130_fd_pr__nfet_01v8_lvt[vth]
+save @m.xm13.msky130_fd_pr__nfet_01v8_lvt[vds]
+
+
+
 
 *pmos
-
-save @m.xm1.msky130_fd_pr__pfet_01v8_lvt[vgs]
-save @m.xm1.msky130_fd_pr__pfet_01v8_lvt[vth]
-save @m.xm1.msky130_fd_pr__pfet_01v8_lvt[vds]
-
 
 save @m.xm2.msky130_fd_pr__pfet_01v8_lvt[vgs]
 save @m.xm2.msky130_fd_pr__pfet_01v8_lvt[vth]
 save @m.xm2.msky130_fd_pr__pfet_01v8_lvt[vds]
+
+
+save @m.xm3.msky130_fd_pr__pfet_01v8_lvt[vgs]
+save @m.xm3.msky130_fd_pr__pfet_01v8_lvt[vth]
+save @m.xm3.msky130_fd_pr__pfet_01v8_lvt[vds]
+save @m.xm3.msky130_fd_pr__pfet_01v8_lvt[gds]
 
 
 save @m.xm10.msky130_fd_pr__pfet_01v8_lvt[vgs]
 save @m.xm10.msky130_fd_pr__pfet_01v8_lvt[vth]
 save @m.xm10.msky130_fd_pr__pfet_01v8_lvt[vds]
 
-save @m.xm13.msky130_fd_pr__pfet_01v8_lvt[vgs]
-save @m.xm13.msky130_fd_pr__pfet_01v8_lvt[vth]
-save @m.xm13.msky130_fd_pr__pfet_01v8_lvt[vds]
 
-save @m.xm4.msky130_fd_pr__pfet_01v8_lvt[vgs]
-save @m.xm4.msky130_fd_pr__pfet_01v8_lvt[vth]
-save @m.xm4.msky130_fd_pr__pfet_01v8_lvt[vds]
-
-save @m.xm5.msky130_fd_pr__pfet_01v8_lvt[vgs]
-save @m.xm5.msky130_fd_pr__pfet_01v8_lvt[vth]
-save @m.xm5.msky130_fd_pr__pfet_01v8_lvt[vds]
-
-save @m.xm16.msky130_fd_pr__pfet_01v8_lvt[vgs]
-save @m.xm16.msky130_fd_pr__pfet_01v8_lvt[vth]
-save @m.xm16.msky130_fd_pr__pfet_01v8_lvt[vds]
-
-save @m.xm17.msky130_fd_pr__pfet_01v8_lvt[vgs]
-save @m.xm17.msky130_fd_pr__pfet_01v8_lvt[vth]
-save @m.xm17.msky130_fd_pr__pfet_01v8_lvt[vds]
-
-save @m.xm3.msky130_fd_pr__pfet_01v8_lvt[vgs]
-save @m.xm3.msky130_fd_pr__pfet_01v8_lvt[vth]
-save @m.xm3.msky130_fd_pr__pfet_01v8_lvt[vds]
-
-save @m.xm20.msky130_fd_pr__pfet_01v8_lvt[vgs]
-save @m.xm20.msky130_fd_pr__pfet_01v8_lvt[vth]
-save @m.xm20.msky130_fd_pr__pfet_01v8_lvt[vds]
-
-save @m.xm2.msky130_fd_pr__pfet_01v8_lvt[vgs]
-save @m.xm2.msky130_fd_pr__pfet_01v8_lvt[vth]
-save @m.xm2.msky130_fd_pr__pfet_01v8_lvt[vds]
-
-save @m.xm21.msky130_fd_pr__pfet_01v8_lvt[vgs]
-save @m.xm21.msky130_fd_pr__pfet_01v8_lvt[vth]
-save @m.xm21.msky130_fd_pr__pfet_01v8_lvt[vds]
-
-save @m.xm7.msky130_fd_pr__nfet_01v8_lvt[vth]
-
-save @m.xm1.msky130_fd_pr__pfet_01v8[vgs]
-
-save @m.xm1.msky130_fd_pr__nfet_01v8_lvt[gm]
+save @m.xm23.msky130_fd_pr__pfet_01v8_lvt[vgs]
+save @m.xm23.msky130_fd_pr__pfet_01v8_lvt[vth]
+save @m.xm23.msky130_fd_pr__pfet_01v8_lvt[vds]
 
 
-save @m.xm1.msky130_fd_pr__nfet_01v8_lvt[gds]
-save @m.xm2.msky130_fd_pr__pfet_01v8_lvt[gm]
-
-save @m.xm23.msky130_fd_pr__nfet_01v8[cgs]
-save @m.xm4.msky130_fd_pr__pfet_01v8[cgs]
-save @m.xm2.msky130_fd_pr__pfet_01v8_lvt[cgs]
-
-
-
-save @m.xm2.msky130_fd_pr__pfet_01v8_lvt[gds]
+save @m.xm24.msky130_fd_pr__pfet_01v8_lvt[vgs]
+save @m.xm24.msky130_fd_pr__pfet_01v8_lvt[vth]
+save @m.xm24.msky130_fd_pr__pfet_01v8_lvt[vds]
+save @m.xm24.msky130_fd_pr__pfet_01v8_lvt[gds]
 
 
 op
-write testbench.raw
+remzerovec
+write CL_ac.raw
 *set appendwrite
 
 
@@ -264,7 +300,7 @@ setplot noise1
 plot inoise_spectrum
 
 ac dec 10 0.1 20k
-let gaind=(v(outp)-v(outn))/(v(VINP1)-v(VINN1))
+let gaind=(v(outp2)-v(outn2))/(v(VINP1)-v(VINN1))
 plot db(gaind)
 
 
@@ -281,14 +317,14 @@ value="
 "
 spice_ignore=false}
 C {devices/res.sym} 60 -470 1 0 {name=R1
-value=225G
+value=275G
 footprint=1206
 device=resistor
 m=1}
 C {sky130_fd_pr/cap_mim_m3_2.sym} 60 -720 1 0 {name=C1 model=cap_mim_m3_2 W=5 L=5 MF=19 spiceprefix=X}
 C {sky130_fd_pr/cap_mim_m3_2.sym} 60 590 1 0 {name=C2 model=cap_mim_m3_2 W=5 L=5 MF=19 spiceprefix=X}
 C {devices/res.sym} 60 270 1 0 {name=R2
-value=225G
+value=275G
 footprint=1206
 device=resistor
 m=1}
@@ -304,5 +340,71 @@ L=20
 model=res_xhigh_po_0p35
 spiceprefix=X
 mult=1}
-C {devices/lab_pin.sym} -550 -280 1 0 {name=p13 sig_type=std_logic lab=vdd}
-C {devices/lab_pin.sym} -550 160 1 0 {name=p14 sig_type=std_logic lab=vdd}
+C {devices/lab_pin.sym} -550 -280 1 0 {name=p13 sig_type=std_logic lab=vss}
+C {devices/lab_pin.sym} -550 160 1 0 {name=p14 sig_type=std_logic lab=vss}
+C {sky130_fd_pr/cap_mim_m3_2.sym} 600 -20 0 1 {name=C5 model=cap_mim_m3_2 W=15 L=10 MF=30 spiceprefix=X}
+C {sky130_fd_pr/cap_mim_m3_2.sym} 930 -20 0 1 {name=C6 model=cap_mim_m3_2 W=15 L=10 MF=30 spiceprefix=X}
+C {devices/lab_pin.sym} 930 -240 2 0 {name=p25 sig_type=std_logic lab=outn2}
+C {devices/lab_pin.sym} 930 170 2 0 {name=p27 sig_type=std_logic lab=outp2}
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} 540 -240 1 0 {name=R5
+L=95
+model=res_xhigh_po_0p35
+spiceprefix=X
+mult=1}
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} 730 -240 1 0 {name=R6
+L=95
+model=res_xhigh_po_0p35
+spiceprefix=X
+mult=1}
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} 480 -240 1 0 {name=R7
+L=95
+model=res_xhigh_po_0p35
+spiceprefix=X
+mult=1}
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} 660 -240 1 0 {name=R8
+L=95
+model=res_xhigh_po_0p35
+spiceprefix=X
+mult=1}
+C {devices/lab_pin.sym} 610 -260 1 0 {name=p15 sig_type=std_logic lab=vss}
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} 510 170 1 0 {name=R9
+L=95
+model=res_xhigh_po_0p35
+spiceprefix=X
+mult=1}
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} 700 170 1 0 {name=R10
+L=95
+model=res_xhigh_po_0p35
+spiceprefix=X
+mult=1}
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} 450 170 1 0 {name=R11
+L=95
+model=res_xhigh_po_0p35
+spiceprefix=X
+mult=1}
+C {devices/lab_pin.sym} 670 150 1 0 {name=p16 sig_type=std_logic lab=vss}
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} 820 170 1 0 {name=R14
+L=95
+model=res_xhigh_po_0p35
+spiceprefix=X
+mult=1}
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} 900 170 1 0 {name=R12
+L=95
+model=res_xhigh_po_0p35
+spiceprefix=X
+mult=1}
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} 820 -240 1 0 {name=R13
+L=95
+model=res_xhigh_po_0p35
+spiceprefix=X
+mult=1}
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} 390 170 1 0 {name=R15
+L=95
+model=res_xhigh_po_0p35
+spiceprefix=X
+mult=1}
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} 420 -240 1 0 {name=R16
+L=95
+model=res_xhigh_po_0p35
+spiceprefix=X
+mult=1}

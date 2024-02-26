@@ -785,7 +785,7 @@ C {devices/ngspice_get_expr.sym} 705 -670 0 0 {name=r23 node="[format %.2g [expr
 descr="vod"}
 C {devices/ngspice_get_value.sym} 705 -640 0 0 {name=r43 node=v(@m.xm4.msky130_fd_pr__pfet_01v8_lvt[vds])
 descr="vds"}
-C {devices/ngspice_get_expr.sym} 705 -610 0 0 {name=r44 node="[format %.3g [expr [ngspice::get_voltage \\\{@m.xm4.msky130_fd_pr__pfet_01v8_lvt[vds]\\\}] - [ngspice::get_voltage \\\{@m.xm4.msky130_fd_pr__pfet_01v8_lvt[vgs]\\\}] + [ngspice::get_voltage \\\{@m.xm10.msky130_fd_pr__pfet_01v8_lvt[vth]\\\}]]]"
+C {devices/ngspice_get_expr.sym} 705 -610 0 0 {name=r44 node="[format %.3g [expr [ngspice::get_voltage \\\{@m.xm4.msky130_fd_pr__pfet_01v8_lvt[vds]\\\}] - [ngspice::get_voltage \\\{@m.xm4.msky130_fd_pr__pfet_01v8_lvt[vgs]\\\}] + [ngspice::get_voltage \\\{@m.xm4.msky130_fd_pr__pfet_01v8_lvt[vth]\\\}]]]"
 descr="vds-vod"}
 C {devices/ngspice_get_value.sym} 1325 -710 0 0 {name=r47 node=v(@m.xm5.msky130_fd_pr__pfet_01v8_lvt[vth])
 descr="vth"}
