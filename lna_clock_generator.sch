@@ -5,6 +5,9 @@ K {}
 V {}
 S {}
 E {}
+T {Minimum sized standard cells are generating two non-overlapping clock signals.
+
+} -337.5 290.625 0 0 0.4 0.4 {}
 N -100 -80 -20 -80 {
 lab=#net1}
 N 60 -80 130 -80 {
@@ -84,3 +87,4 @@ C {devices/iopin.sym} -705 285 2 0 {name=p5 lab=VDD_CG}
 C {devices/lab_pin.sym} -530 0 0 0 {name=p6 sig_type=std_logic lab=di_clk_1v8}
 C {devices/lab_pin.sym} 420 -140 0 0 {name=p7 sig_type=std_logic lab=do_clk1_1v8}
 C {devices/lab_pin.sym} 500 170 2 0 {name=p8 sig_type=std_logic lab=do_clk2_1v8}
+C {devices/title.sym} -416.25 410 0 0 {name=l2 author="Amirhossein Zanjani"}

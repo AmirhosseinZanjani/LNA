@@ -87,12 +87,8 @@ N -317.5 -238.75 -117.5 -238.75 {
 lab=in_p1}
 N -317.5 201.25 -117.5 201.25 {
 lab=in_n1}
-N -517.5 -238.75 -377.5 -238.75 {
-lab=#net2}
 N -677.5 -238.75 -577.5 -238.75 {
 lab=VINP1}
-N -517.5 201.25 -377.5 201.25 {
-lab=#net3}
 N -627.5 201.25 -577.5 201.25 {
 lab=VINN1}
 N 332.5 -60 393.75 -60 {
@@ -112,45 +108,17 @@ lab=o1}
 N 282.5 -68.75 293.75 -68.75 {
 lab=outp}
 N 102.5 101.25 102.5 180 {
-lab=#net4}
-N 1753.75 -71.25 1813.75 -71.25 {
-lab=outpl}
-N 1743.75 8.75 1813.75 8.75 {
-lab=outnl}
-N 1143.75 -241.25 1343.75 -241.25 {
-lab=VINP1}
-N 1143.75 198.75 1343.75 198.75 {
-lab=VINN1}
-N 1793.75 -62.5 1855 -62.5 {
-lab=outpl}
-N 1793.75 -71.25 1793.75 -62.5 {
-lab=outpl}
-N 1793.75 -22.5 1855 -22.5 {
-lab=outnl}
-N 1793.75 -22.5 1793.75 7.5 {
-lab=outnl}
-N 1793.75 7.5 1793.75 8.75 {
-lab=outnl}
-N 2045 -62.5 2066.25 -62.5 {
-lab=o2l}
-N 2045 -22.5 2066.25 -22.5 {
-lab=o1l}
-N 1743.75 -71.25 1755 -71.25 {
-lab=outpl}
-N 1563.75 98.75 1563.75 177.5 {
-lab=#net5}
-N 1343.75 8.75 1343.75 197.5 {
-lab=VINN1}
-N 1343.75 197.5 1343.75 198.75 {
-lab=VINN1}
-N 1343.75 -242.5 1343.75 -82.5 {
-lab=VINP1}
-N 1343.75 -82.5 1343.75 -81.25 {
-lab=VINP1}
-N 1975 113.75 1975 131.25 {
-lab=OL}
+lab=#net2}
 N 491.25 132.5 491.25 150 {
 lab=CL}
+N -517.5 -238.75 -392.5 -238.75 {
+lab=#net3}
+N -517.5 201.25 -392.5 201.25 {
+lab=#net4}
+N -392.5 201.25 -377.5 201.25 {
+lab=#net4}
+N -392.5 -238.75 -377.5 -238.75 {
+lab=#net3}
 C {LNA/LNA_ac.sym} 12.5 -28.75 0 0 {name=x1}
 C {devices/vsource.sym} -525 -561.25 0 0 {name=V1 value=1.8}
 C {devices/lab_pin.sym} -525 -531.25 3 0 {name=p1 sig_type=std_logic lab=0}
@@ -188,7 +156,7 @@ tclcommand="xschem netlist; xschem simulate"}
 C {devices/code.sym} -1093.75 -605 0 0 {name=STIMULI
 only_toplevel=false
 value="
-.options savecurrents
+.options savecurrents gmin=1e-13
 *ic v(VM5)=0.9 v(VM6)=0.9
 .control
 
@@ -319,7 +287,7 @@ print inoise_total onoise_total
 setplot noise1
 plot inoise_spectrum
 
-ac dec 10 0.1 1000k
+ac dec 10 0.1 10k
 let gaind=(v(outp)-v(outn))/(v(VINP1)-v(VINN1))
 let lg=vr/VIN1
 let BG=(OL/CL)-1
@@ -352,8 +320,6 @@ value=225G
 footprint=1206
 device=resistor
 m=1}
-C {sky130_fd_pr/cap_mim_m3_2.sym} -347.5 -238.75 1 0 {name=C3 model=cap_mim_m3_2 W=12 L=10 MF=1500 spiceprefix=X}
-C {sky130_fd_pr/cap_mim_m3_2.sym} -347.5 201.25 1 0 {name=C4 model=cap_mim_m3_2 W=12 L=10 MF=1500 spiceprefix=X}
 C {sky130_fd_pr/res_xhigh_po_0p35.sym} -547.5 -238.75 1 0 {name=R3
 L=20
 model=res_xhigh_po_0p35
@@ -366,10 +332,8 @@ spiceprefix=X
 mult=1}
 C {devices/lab_pin.sym} -547.5 -258.75 1 0 {name=p13 sig_type=std_logic lab=0}
 C {devices/lab_pin.sym} -547.5 181.25 1 0 {name=p14 sig_type=std_logic lab=0}
-C {LNA/AAFilter.sym} 503.75 0 0 0 {name=x3}
+C {LNA/AAFilter.sym} 413.75 -80 0 0 {name=x3}
 C {devices/lab_pin.sym} 483.75 20 3 0 {name=p15 sig_type=std_logic lab=0}
-C {devices/lab_pin.sym} 513.75 -100 1 0 {name=p16 sig_type=std_logic lab=0}
-C {devices/lab_pin.sym} 463.75 -100 1 0 {name=p21 sig_type=std_logic lab=0}
 C {devices/lab_pin.sym} 603.75 -60 1 0 {name=p22 sig_type=std_logic lab=o2}
 C {devices/lab_pin.sym} 603.75 -20 3 0 {name=p25 sig_type=std_logic lab=o1}
 C {devices/lab_pin.sym} 132.5 81.25 3 0 {name=p17 sig_type=std_logic lab=0}
@@ -377,32 +341,6 @@ C {LNA/Bias_Core.sym} -27.5 180 0 0 {name=X2}
 C {devices/lab_pin.sym} -17.5 120 1 0 {name=p18 sig_type=std_logic lab=vdd}
 C {devices/lab_pin.sym} -97.5 180 1 0 {name=p19 sig_type=std_logic lab=cm}
 C {devices/lab_pin.sym} -17.5 240 3 0 {name=p20 sig_type=std_logic lab=0}
-C {LNA/LNA_ac.sym} 1473.75 -31.25 0 0 {name=x4}
-C {devices/lab_pin.sym} 1513.75 -171.25 1 0 {name=p30 sig_type=std_logic lab=vdd}
-C {devices/lab_pin.sym} 1573.75 -161.25 1 0 {name=p31 sig_type=std_logic lab=cm}
-C {devices/lab_pin.sym} 1523.75 108.75 3 0 {name=p34 sig_type=std_logic lab=0}
-C {devices/lab_pin.sym} 1623.75 68.75 3 0 {name=p35 sig_type=std_logic lab=0}
-C {devices/lab_pin.sym} 1143.75 198.75 2 1 {name=p36 sig_type=std_logic lab=VINN1}
-C {devices/lab_pin.sym} 1143.75 -241.25 2 1 {name=p37 sig_type=std_logic lab=VINP1}
-C {devices/lab_pin.sym} 1813.75 -71.25 2 0 {name=p38 sig_type=std_logic lab=outpl}
-C {devices/lab_pin.sym} 1813.75 8.75 2 0 {name=p39 sig_type=std_logic lab=outnl}
-C {LNA/AAFilter.sym} 1965 -2.5 0 0 {name=x5}
-C {devices/lab_pin.sym} 1945 17.5 3 0 {name=p42 sig_type=std_logic lab=0}
-C {devices/lab_pin.sym} 1975 -102.5 1 0 {name=p43 sig_type=std_logic lab=0}
-C {devices/lab_pin.sym} 1925 -102.5 1 0 {name=p44 sig_type=std_logic lab=0}
-C {devices/lab_pin.sym} 2065 -62.5 1 0 {name=p45 sig_type=std_logic lab=o2l}
-C {devices/lab_pin.sym} 2065 -22.5 3 0 {name=p46 sig_type=std_logic lab=o1l}
-C {devices/lab_pin.sym} 1593.75 78.75 3 0 {name=p47 sig_type=std_logic lab=0}
-C {LNA/Bias_Core.sym} 1433.75 177.5 0 0 {name=X6}
-C {devices/lab_pin.sym} 1443.75 117.5 1 0 {name=p48 sig_type=std_logic lab=vdd}
-C {devices/lab_pin.sym} 1363.75 177.5 1 0 {name=p49 sig_type=std_logic lab=cm}
-C {devices/lab_pin.sym} 1443.75 237.5 3 0 {name=p50 sig_type=std_logic lab=0}
-C {devices/vcvs.sym} 1975 161.25 0 0 {name=E2 value=-1
-}
-C {devices/lab_pin.sym} 1935 141.25 0 0 {name=p27 sig_type=std_logic lab=outpl}
-C {devices/lab_pin.sym} 1935 181.25 0 0 {name=p29 sig_type=std_logic lab=outnl}
-C {devices/lab_pin.sym} 1975 191.25 3 0 {name=p32 sig_type=std_logic lab=0}
-C {devices/lab_pin.sym} 1975 113.75 0 0 {name=p33 sig_type=std_logic lab=OL}
 C {devices/vcvs.sym} 491.25 180 0 0 {name=E3 value=-1
 }
 C {devices/lab_pin.sym} 451.25 160 0 0 {name=p40 sig_type=std_logic lab=outp}
@@ -411,3 +349,24 @@ C {devices/lab_pin.sym} 491.25 210 3 0 {name=p51 sig_type=std_logic lab=0}
 C {devices/lab_pin.sym} 491.25 132.5 0 0 {name=p52 sig_type=std_logic lab=CL}
 C {devices/lab_pin.sym} -117.5 -283.75 2 1 {name=p53 sig_type=std_logic lab=in_p1}
 C {devices/lab_pin.sym} -117.5 123.75 2 1 {name=p54 sig_type=std_logic lab=in_n1}
+C {devices/lab_pin.sym} -1295.625 470 1 0 {name=p21 sig_type=std_logic lab=tune[0]}
+C {devices/vsource.sym} -1295.625 500 0 0 {name=V3 value="0"}
+C {devices/lab_pin.sym} -1295.625 530 3 0 {name=p27 sig_type=std_logic lab=0}
+C {devices/vsource.sym} -1229.375 500 0 0 {name=V5 value="0"}
+C {devices/lab_pin.sym} -1229.375 530 3 0 {name=p29 sig_type=std_logic lab=0}
+C {devices/vsource.sym} -1166.875 500 0 0 {name=V6 value="0"}
+C {devices/lab_pin.sym} -1166.875 530 3 0 {name=p30 sig_type=std_logic lab=0}
+C {devices/vsource.sym} -1103.125 500 0 0 {name=V8 value="0"}
+C {devices/lab_pin.sym} -1103.125 530 3 0 {name=p31 sig_type=std_logic lab=0}
+C {devices/vsource.sym} -1035.625 500 0 0 {name=V9 value="0"}
+C {devices/lab_pin.sym} -1035.625 530 3 0 {name=p32 sig_type=std_logic lab=0}
+C {devices/vsource.sym} -968.75 500 0 0 {name=V10 value="1.8"}
+C {devices/lab_pin.sym} -968.75 530 3 0 {name=p33 sig_type=std_logic lab=0}
+C {devices/lab_pin.sym} -1229.375 470 1 0 {name=p34 sig_type=std_logic lab=tune[1]}
+C {devices/lab_pin.sym} -1166.875 470 1 0 {name=p35 sig_type=std_logic lab=tune[2]}
+C {devices/lab_pin.sym} -1103.125 470 1 0 {name=p36 sig_type=std_logic lab=tune[3]}
+C {devices/lab_pin.sym} -1035.625 470 1 0 {name=p37 sig_type=std_logic lab=tune[4]}
+C {devices/lab_pin.sym} -968.75 470 1 0 {name=p38 sig_type=std_logic lab=tune[5]}
+C {devices/lab_pin.sym} 483.75 -100 1 0 {name=p16 sig_type=std_logic lab=tune[5:0]}
+C {sky130_fd_pr/cap_mim_m3_2.sym} -347.5 201.25 1 1 {name=C7 model=cap_mim_m3_1 W=15 L=10 MF=1500 spiceprefix=X}
+C {sky130_fd_pr/cap_mim_m3_2.sym} -347.5 -238.75 1 1 {name=C3 model=cap_mim_m3_1 W=15 L=10 MF=1500 spiceprefix=X}

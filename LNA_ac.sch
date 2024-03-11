@@ -68,7 +68,7 @@ lab=InN_LNA}
 N 432.5 -796.25 432.5 -616.25 {
 lab=#net1}
 N 432.5 -446.25 432.5 -396.25 {
-lab=#net1}
+lab=#net2}
 N 202.5 -306.25 432.5 -306.25 {
 lab=VSS_LNA}
 N 432.5 -336.25 432.5 -306.25 {
@@ -116,11 +116,9 @@ lab=VSS_LNA}
 N 1032.5 -686.25 1032.5 -666.25 {
 lab=VSS_LNA}
 N 1012.5 -656.25 1012.5 -576.25 {
-lab=#net2}
-N 812.5 -656.25 812.5 -576.25 {
 lab=#net3}
-N 1012.5 -576.25 1012.5 -546.25 {
-lab=#net2}
+N 812.5 -656.25 812.5 -576.25 {
+lab=#net4}
 N 1032.5 -1146.25 1572.5 -1146.25 {
 lab=VDD_LNA}
 N 1372.5 -1116.25 1392.5 -1116.25 {
@@ -158,9 +156,9 @@ lab=VSS_LNA}
 N 2412.5 -306.25 2422.5 -306.25 {
 lab=VSS_LNA}
 N 1412.5 -346.25 1422.5 -346.25 {
-lab=cmvo}
+lab=#net5}
 N 2362.5 -346.25 2372.5 -346.25 {
-lab=cmvo}
+lab=#net5}
 N 1372.5 -706.25 1372.5 -586.25 {
 lab=OutP_LNA}
 N 2412.5 -706.25 2412.5 -586.25 {
@@ -171,8 +169,6 @@ N 1372.5 -586.25 1372.5 -476.25 {
 lab=OutP_LNA}
 N 2412.5 -586.25 2412.5 -476.25 {
 lab=OutN_LNA}
-N -57.5 -526.25 -57.5 -496.25 {
-lab=#net3}
 N 852.5 -1106.25 872.5 -1106.25 {
 lab=a}
 N 952.5 -1106.25 972.5 -1106.25 {
@@ -190,9 +186,9 @@ lab=a}
 N 1012.5 -826.25 1012.5 -766.25 {
 lab=b}
 N 812.5 -1076.25 812.5 -1046.25 {
-lab=a}
+lab=#net6}
 N 1012.5 -1076.25 1012.5 -1046.25 {
-lab=b}
+lab=#net7}
 N 72.5 -746.25 72.5 -726.25 {
 lab=VT2}
 N -27.5 -696.25 182.5 -696.25 {
@@ -201,11 +197,7 @@ N 72.5 -726.25 72.5 -696.25 {
 lab=VT2}
 N 872.5 -1106.25 872.5 -1046.25 {
 lab=a}
-N 812.5 -1046.25 872.5 -1046.25 {
-lab=a}
 N 952.5 -1106.25 952.5 -1046.25 {
-lab=b}
-N 952.5 -1046.25 1012.5 -1046.25 {
 lab=b}
 N 1572.5 -1146.25 2322.5 -1146.25 {
 lab=VDD_LNA}
@@ -219,19 +211,11 @@ N -207.5 -696.25 -197.5 -696.25 {
 lab=InP_LNA}
 N 1372.5 -1086.25 1372.5 -1046.25 {
 lab=OutP_LNA}
-N 812.5 -876.25 812.5 -826.25 {
-lab=a}
 N 332.5 -416.25 392.5 -416.25 {
 lab=Bias_LNA}
 N 72.5 -416.25 332.5 -416.25 {
 lab=Bias_LNA}
 N 1012.5 -876.25 1012.5 -826.25 {
-lab=b}
-N 72.5 -1066.25 72.5 -896.25 {
-lab=VT2}
-N 812.5 -1046.25 812.5 -876.25 {
-lab=a}
-N 1012.5 -1046.25 1012.5 -876.25 {
 lab=b}
 N 1372.5 -1046.25 1372.5 -876.25 {
 lab=OutP_LNA}
@@ -245,14 +229,12 @@ N 72.5 -416.25 72.5 -366.25 {
 lab=Bias_LNA}
 N 392.5 -416.25 392.5 -366.25 {
 lab=Bias_LNA}
-N 432.5 -506.25 432.5 -446.25 {
-lab=#net1}
 N 1372.5 -876.25 1372.5 -816.25 {
 lab=OutP_LNA}
 N 2412.5 -476.25 2412.5 -416.25 {
 lab=OutN_LNA}
 N 1422.5 -346.25 2362.5 -346.25 {
-lab=cmvo}
+lab=#net5}
 N 1372.5 -476.25 1372.5 -416.25 {
 lab=OutP_LNA}
 N 2412.5 -916.25 2412.5 -806.25 {
@@ -272,21 +254,11 @@ lab=b}
 N 1412.5 -1076.25 1412.5 -1056.25 {
 lab=b}
 N -57.5 -436.25 -57.5 -396.25 {
-lab=#net3}
+lab=#net8}
 N 202.5 -436.25 202.5 -396.25 {
-lab=#net2}
-N -57.5 -496.25 -57.5 -436.25 {
-lab=#net3}
-N 202.5 -496.25 202.5 -436.25 {
-lab=#net2}
+lab=#net9}
 N 72.5 -856.25 72.5 -796.25 {
 lab=VT2}
-N 432.5 -1066.25 432.5 -796.25 {
-lab=#net1}
-N 372.5 -1096.25 372.5 -1036.25 {
-lab=#net1}
-N 372.5 -1036.25 432.5 -1036.25 {
-lab=#net1}
 N 1801.25 -675 1801.25 -655 {
 lab=VSS_LNA}
 N 1721.25 -725 1761.25 -725 {
@@ -294,7 +266,7 @@ lab=OutN_LNA}
 N 1721.25 -825 1761.25 -825 {
 lab=OutP_LNA}
 N 2031.25 -695 2051.25 -695 {
-lab=cmvo}
+lab=#net5}
 N 1761.25 -785 1761.25 -755 {
 lab=f1}
 N 1761.25 -755 1801.25 -755 {
@@ -360,43 +332,115 @@ lab=CM_LNA}
 N 1372.5 -825 1721.25 -825 {
 lab=OutP_LNA}
 N 2051.25 -695 2051.25 -347.5 {
-lab=cmvo}
+lab=#net5}
 N 2051.25 -347.5 2051.25 -346.25 {
-lab=cmvo}
-N 1012.5 -960 1013.75 -960 {
-lab=b}
-N 812.5 -850 813.75 -850 {
-lab=a}
+lab=#net5}
 N -57.5 -666.25 -57.5 -665 {
-lab=#net3}
+lab=#net4}
 N -57.5 -665 -57.5 -630 {
-lab=#net3}
+lab=#net4}
 N 202.5 -666.25 202.5 -631.25 {
-lab=#net2}
-N 202.5 -571.25 202.5 -496.25 {
-lab=#net2}
-N -57.5 -507.5 807.5 -507.5 {
 lab=#net3}
-N 812.5 -576.25 812.5 -507.5 {
-lab=#net3}
-N 807.5 -507.5 812.5 -507.5 {
-lab=#net3}
-N 202.5 -462.5 1010 -462.5 {
-lab=#net2}
-N 1010 -462.5 1013.75 -462.5 {
-lab=#net2}
-N 1013.75 -546.25 1013.75 -462.5 {
-lab=#net2}
-N 1012.5 -546.25 1013.75 -546.25 {
-lab=#net2}
+N -57.5 -577.5 807.5 -577.5 {
+lab=#net4}
+N 807.5 -577.5 812.5 -577.5 {
+lab=#net4}
 N -57.5 -631.25 -57.5 -525 {
-lab=#net3}
+lab=#net4}
 N 202.5 -632.5 202.5 -571.25 {
-lab=#net2}
+lab=#net3}
 N 2412.5 -990 2415 -990 {
 lab=OutN_LNA}
-N 1292.5 -968.75 1312.5 -968.75 {
+N 202.5 -550 1012.5 -550 {
+lab=#net3}
+N 202.5 -572.5 202.5 -550 {
+lab=#net3}
+N -17.5 -466.25 162.5 -466.25 {
+lab=CM_LNA}
+N -87.5 -466.25 -87.5 -366.25 {
+lab=VSS_LNA}
+N -87.5 -466.25 -57.5 -466.25 {
+lab=VSS_LNA}
+N 222.5 -466.25 222.5 -365 {
+lab=VSS_LNA}
+N 202.5 -466.25 222.5 -466.25 {
+lab=VSS_LNA}
+N 202.5 -551.25 202.5 -496.25 {
+lab=#net3}
+N 98.75 -513.75 98.75 -466.25 {
+lab=CM_LNA}
+N 98.75 -513.75 383.75 -513.75 {
+lab=CM_LNA}
+N 383.75 -513.75 383.75 -476.25 {
+lab=CM_LNA}
+N 383.75 -476.25 392.5 -476.25 {
+lab=CM_LNA}
+N 372.5 -990 432.5 -990 {
+lab=#net1}
+N 432.5 -1005 432.5 -990 {
+lab=#net1}
+N 55 -1036.25 72.5 -1036.25 {
+lab=VDD_LNA}
+N 52.5 -1036.25 55 -1036.25 {
+lab=VDD_LNA}
+N 52.5 -1096.25 52.5 -1036.25 {
+lab=VDD_LNA}
+N 372.5 -1096.25 372.5 -990 {
+lab=#net1}
+N 72.5 -1006.25 72.5 -896.25 {
+lab=VT2}
+N 432.5 -990 432.5 -796.25 {
+lab=#net1}
+N 452.5 -476.25 452.5 -366.25 {
+lab=VSS_LNA}
+N 432.5 -476.25 452.5 -476.25 {
+lab=VSS_LNA}
+N 432.5 -1036.25 451.25 -1036.25 {
+lab=VDD_LNA}
+N 452.5 -1096.25 452.5 -1036.25 {
+lab=VDD_LNA}
+N 450 -1036.25 452.5 -1036.25 {
+lab=VDD_LNA}
+N 112.5 -1036.25 392.5 -1036.25 {
+lab=CM_LNA}
+N 432.5 -1006.25 432.5 -1005 {
+lab=#net1}
+N -57.5 -526.25 -57.5 -496.25 {
+lab=#net4}
+N 1012.5 -576.25 1012.5 -550 {
+lab=#net3}
+N 1292.5 -1007.5 1312.5 -1007.5 {
 lab=a}
+N 852.5 -1016.25 972.5 -1016.25 {
+lab=CM_LNA}
+N 952.5 -1047.5 952.5 -980 {
+lab=b}
+N 952.5 -980 1012.5 -980 {
+lab=b}
+N 1012.5 -986.25 1012.5 -980 {
+lab=b}
+N 872.5 -1046.25 872.5 -981.25 {
+lab=a}
+N 812.5 -981.25 872.5 -981.25 {
+lab=a}
+N 812.5 -986.25 812.5 -981.25 {
+lab=a}
+N 783.75 -1016.25 812.5 -1016.25 {
+lab=VDD_LNA}
+N 781.25 -1016.25 783.75 -1016.25 {
+lab=VDD_LNA}
+N 1012.5 -1016.25 1027.5 -1016.25 {
+lab=VDD_LNA}
+N 1027.5 -1016.25 1031.25 -1016.25 {
+lab=VDD_LNA}
+N 1031.25 -1106.25 1031.25 -1016.25 {
+lab=VDD_LNA}
+N 812.5 -981.25 812.5 -825 {
+lab=a}
+N 1012.5 -980 1012.5 -876.25 {
+lab=b}
+N 782.5 -1106.25 782.5 -1016.25 {
+lab=VDD_LNA}
 C {devices/iopin.sym} -768.75 -863.75 3 0 {name=p8 lab=InP_LNA}
 C {devices/iopin.sym} -893.75 -863.75 3 0 {name=p9 lab=InN_LNA}
 C {devices/iopin.sym} -1023.75 -863.75 3 0 {name=p10 lab=VSS_LNA}
@@ -437,7 +481,7 @@ C {sky130_fd_pr/nfet_01v8_lvt.sym} -37.5 -366.25 0 1 {name=M8
 L=20
 W=10
 nf=1 
-mult=4
+mult=3
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -451,7 +495,7 @@ C {sky130_fd_pr/nfet_01v8_lvt.sym} 182.5 -366.25 0 0 {name=M9
 L=20
 W=10
 nf=1 
-mult=4
+mult=3
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -493,7 +537,7 @@ C {sky130_fd_pr/nfet_01v8_lvt.sym} 992.5 -686.25 0 0 {name=M18
 L=20
 W=1
 nf=1 
-mult=1
+mult=12
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -507,7 +551,7 @@ C {sky130_fd_pr/nfet_01v8_lvt.sym} 832.5 -686.25 0 1 {name=M19
 L=20
 W=1
 nf=1 
-mult=1
+mult=12
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -579,7 +623,7 @@ C {sky130_fd_pr/pfet_01v8_lvt.sym} 92.5 -1096.25 0 1 {name=M2
 L=20
 W=2
 nf=1
-mult=6
+mult=4
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -642,9 +686,109 @@ C {devices/lab_pin.sym} 1941.25 -755 2 1 {name=p5 sig_type=std_logic lab=f3}
 C {devices/lab_pin.sym} 1722.5 -725 2 1 {name=p7 sig_type=std_logic lab=OutN_LNA}
 C {devices/lab_pin.sym} 1721.25 -595 0 0 {name=p24 sig_type=std_logic lab=CM_LNA}
 C {devices/lab_pin.sym} 1721.25 -545 3 0 {name=p25 sig_type=std_logic lab=VSS_LNA}
-C {devices/lab_pin.sym} 1813.75 -346.25 3 0 {name=p1 sig_type=std_logic lab=cmvo}
-C {devices/lab_pin.sym} 1012.5 -861.25 0 0 {name=p27 sig_type=std_logic lab=b}
-C {devices/lab_pin.sym} 812.5 -882.5 0 1 {name=p31 sig_type=std_logic lab=a}
+C {devices/lab_pin.sym} 1012.5 -778.75 0 1 {name=p27 sig_type=std_logic lab=b}
+C {devices/lab_pin.sym} 812.5 -780 0 1 {name=p31 sig_type=std_logic lab=a}
 C {devices/lab_pin.sym} 2352.5 -1015 0 0 {name=p26 sig_type=std_logic lab=b}
-C {sky130_fd_pr/cap_mim_m3_2.sym} 1342.5 -968.75 1 0 {name=C1 model=cap_mim_m3_2 W=12 L=10 MF=32 spiceprefix=X}
+C {sky130_fd_pr/cap_mim_m3_2.sym} 1342.5 -1007.5 1 0 {name=C1 model=cap_mim_m3_2 W=12 L=10 MF=32 spiceprefix=X}
 C {sky130_fd_pr/cap_mim_m3_2.sym} 2382.5 -1015 1 0 {name=C2 model=cap_mim_m3_2 W=12 L=10 MF=32 spiceprefix=X}
+C {sky130_fd_pr/nfet_01v8_lvt.sym} -37.5 -466.25 0 1 {name=M1
+L=1
+W=10
+nf=1 
+mult=120
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=nfet_01v8_lvt
+spiceprefix=X
+}
+C {sky130_fd_pr/nfet_01v8_lvt.sym} 182.5 -466.25 0 0 {name=M7
+L=1
+W=10
+nf=1 
+mult=120
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=nfet_01v8_lvt
+spiceprefix=X
+}
+C {sky130_fd_pr/nfet_01v8_lvt.sym} 412.5 -476.25 0 0 {name=M10
+L=1
+W=10
+nf=1 
+mult=40
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=nfet_01v8_lvt
+spiceprefix=X
+}
+C {devices/lab_pin.sym} 98.75 -513.75 0 0 {name=p1 sig_type=std_logic lab=CM_LNA}
+C {sky130_fd_pr/pfet_01v8_lvt.sym} 412.5 -1036.25 0 0 {name=M11
+L=20
+W=2
+nf=1
+mult=50
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=pfet_01v8_lvt
+spiceprefix=X
+}
+C {sky130_fd_pr/pfet_01v8_lvt.sym} 92.5 -1036.25 0 1 {name=M12
+L=20
+W=2
+nf=1
+mult=200
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=pfet_01v8_lvt
+spiceprefix=X
+}
+C {devices/lab_pin.sym} 255 -1036.25 3 0 {name=p2 sig_type=std_logic lab=CM_LNA}
+C {sky130_fd_pr/pfet_01v8_lvt.sym} 992.5 -1016.25 0 0 {name=M13
+L=20
+W=6
+nf=1
+mult=10
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=pfet_01v8_lvt
+spiceprefix=X
+}
+C {sky130_fd_pr/pfet_01v8_lvt.sym} 832.5 -1016.25 0 1 {name=M14
+L=20
+W=6
+nf=1
+mult=10
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=pfet_01v8_lvt
+spiceprefix=X
+}
+C {devices/lab_pin.sym} 910 -1016.25 3 0 {name=p18 sig_type=std_logic lab=CM_LNA}
