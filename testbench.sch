@@ -159,3 +159,17 @@ C {devices/vsource.sym} -561.875 116.25 0 0 {name=V18 value="0"}
 C {devices/lab_pin.sym} -561.875 146.25 3 0 {name=p37 sig_type=std_logic lab=0}
 C {devices/lab_pin.sym} -628.75 86.25 1 0 {name=p38 sig_type=std_logic lab=bias_tune[6]}
 C {devices/lab_pin.sym} -561.875 86.25 1 0 {name=p39 sig_type=std_logic lab=bias_tune[7]}
+C {devices/lab_pin.sym} -1028.75 346.25 1 0 {name=p40 sig_type=std_logic lab=test_select[0]}
+C {devices/vsource.sym} -1028.75 376.25 0 0 {name=V19 value="0"}
+C {devices/lab_pin.sym} -1028.75 406.25 3 0 {name=p41 sig_type=std_logic lab=0}
+C {devices/vsource.sym} -962.5 376.25 0 0 {name=V20 value="0"}
+C {devices/lab_pin.sym} -962.5 406.25 3 0 {name=p42 sig_type=std_logic lab=0}
+C {devices/vsource.sym} -900 376.25 0 0 {name=V21 value="0"}
+C {devices/lab_pin.sym} -900 406.25 3 0 {name=p43 sig_type=std_logic lab=0}
+C {devices/vsource.sym} -836.25 376.25 0 0 {name=V22 value="0"}
+C {devices/lab_pin.sym} -836.25 406.25 3 0 {name=p44 sig_type=std_logic lab=0}
+C {devices/lab_pin.sym} -962.5 346.25 1 0 {name=p47 sig_type=std_logic lab=test_select[1]}
+C {devices/lab_pin.sym} -900 346.25 1 0 {name=p48 sig_type=std_logic lab=test_select[2]}
+C {devices/lab_pin.sym} -836.25 346.25 1 0 {name=p53 sig_type=std_logic lab=test_select[3]}
+C {devices/lab_pin.sym} 477.5 -150 1 0 {name=p45 sig_type=std_logic lab=test_select[3:0]}
+C {devices/lab_pin.sym} 507.5 -140 1 0 {name=p46 sig_type=std_logic lab=test_out[3:0]}
