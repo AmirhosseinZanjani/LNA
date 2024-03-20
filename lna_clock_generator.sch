@@ -88,3 +88,9 @@ C {devices/lab_pin.sym} -530 0 0 0 {name=p6 sig_type=std_logic lab=di_clk_1v8}
 C {devices/lab_pin.sym} 420 -140 0 0 {name=p7 sig_type=std_logic lab=do_clk1_1v8}
 C {devices/lab_pin.sym} 500 170 2 0 {name=p8 sig_type=std_logic lab=do_clk2_1v8}
 C {devices/title.sym} -416.25 410 0 0 {name=l2 author="Amirhossein Zanjani"}
+C {sky130_stdcells/inv_1.sym} -870 -40 0 0 {name=x8 VGND=VSS_CG VNB=VSS_CG VPB=VDD_CG VPWR=VDD_CG prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/inv_1.sym} -870 40 0 0 {name=x9 VGND=VSS_CG VNB=VSS_CG VPB=VDD_CG VPWR=VDD_CG prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/inv_1.sym} -870 120 0 0 {name=x10 VGND=VSS_CG VNB=VSS_CG VPB=VDD_CG VPWR=VDD_CG prefix=sky130_fd_sc_hd__ }
+C {devices/lab_pin.sym} -910 -40 0 0 {name=p9 sig_type=std_logic lab=VSS_CG}
+C {devices/lab_pin.sym} -910 40 0 0 {name=p10 sig_type=std_logic lab=VSS_CG}
+C {devices/lab_pin.sym} -910 120 0 0 {name=p11 sig_type=std_logic lab=VSS_CG}

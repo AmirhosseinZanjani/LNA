@@ -90,6 +90,3 @@ C {sky130_stdcells/inv_1.sym} -200 420 0 0 {name=x10 VGND=VSS_CG VNB=VSS_CG VPB=
 C {devices/lab_pin.sym} -240 260 0 0 {name=p9 sig_type=std_logic lab=VSS_CG}
 C {devices/lab_pin.sym} -240 340 0 0 {name=p10 sig_type=std_logic lab=VSS_CG}
 C {devices/lab_pin.sym} -240 420 0 0 {name=p11 sig_type=std_logic lab=VSS_CG}
-C {devices/lab_pin.sym} -160 260 2 0 {name=p12 sig_type=std_logic lab=VDD_CG}
-C {devices/lab_pin.sym} -160 340 2 0 {name=p13 sig_type=std_logic lab=VDD_CG}
-C {devices/lab_pin.sym} -160 420 2 0 {name=p14 sig_type=std_logic lab=VDD_CG}

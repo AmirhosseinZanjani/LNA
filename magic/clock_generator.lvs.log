@@ -116,15 +116,15 @@ Contents of circuit 1:  Circuit: 'clock_generator'
 Circuit clock_generator contains 14 device instances.
   Class: sky130_fd_sc_hd__inv_1 instances:  12
   Class: sky130_fd_sc_hd__nand2_1 instances:   2
-Circuit contains 14 nets.
+Circuit contains 17 nets.
 Contents of circuit 2:  Circuit: 'clock_generator'
 Circuit clock_generator contains 14 device instances.
   Class: sky130_fd_sc_hd__inv_1 instances:  12
   Class: sky130_fd_sc_hd__nand2_1 instances:   2
-Circuit contains 14 nets.
+Circuit contains 17 nets.
 
 Circuit 1 contains 14 devices, Circuit 2 contains 14 devices.
-Circuit 1 contains 14 nets,    Circuit 2 contains 14 nets.
+Circuit 1 contains 17 nets,    Circuit 2 contains 17 nets.
 
 
 Final result: 

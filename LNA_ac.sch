@@ -451,9 +451,9 @@ C {devices/opin.sym} -1012.5 -412.5 3 0 {name=p47 lab=OutN_LNA}
 C {devices/iopin.sym} -1162.5 -407.5 3 0 {name=p53 lab=Clock2_CMFB_LNA}
 C {sky130_fd_pr/pfet_01v8_lvt.sym} -77.5 -696.25 0 0 {name=M4
 L=10
-W=90
+W=10
 nf=1
-mult=5
+mult=45
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -465,9 +465,9 @@ spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8_lvt.sym} 222.5 -696.25 0 1 {name=M5
 L=10
-W=90
+W=10
 nf=1
-mult=5
+mult=45
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -620,8 +620,8 @@ spiceprefix=X
 C {devices/lab_pin.sym} 202.5 -746.25 0 1 {name=p21 sig_type=std_logic lab=VT2}
 C {devices/lab_pin.sym} 22.5 -416.25 0 0 {name=p19 sig_type=std_logic lab=Bias_LNA}
 C {sky130_fd_pr/pfet_01v8_lvt.sym} 92.5 -1096.25 0 1 {name=M2
-L=20
-W=2
+L=10
+W=10
 nf=1
 mult=4
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -634,8 +634,8 @@ model=pfet_01v8_lvt
 spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8_lvt.sym} 412.5 -1096.25 0 0 {name=M3
-L=20
-W=2
+L=10
+W=10
 nf=1
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -735,10 +735,10 @@ spiceprefix=X
 }
 C {devices/lab_pin.sym} 98.75 -513.75 0 0 {name=p1 sig_type=std_logic lab=CM_LNA}
 C {sky130_fd_pr/pfet_01v8_lvt.sym} 412.5 -1036.25 0 0 {name=M11
-L=20
-W=2
+L=10
+W=10
 nf=1
-mult=50
+mult=5
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -749,10 +749,10 @@ model=pfet_01v8_lvt
 spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8_lvt.sym} 92.5 -1036.25 0 1 {name=M12
-L=20
-W=2
+L=10
+W=10
 nf=1
-mult=200
+mult=20
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 

@@ -12,9 +12,9 @@ x19 net6 VSS_CG VSS_CG VDD_CG VDD_CG net7 sky130_fd_sc_hd__inv_1
 x20 net7 VSS_CG VSS_CG VDD_CG VDD_CG net8 sky130_fd_sc_hd__inv_1
 x21 net8 VSS_CG VSS_CG VDD_CG VDD_CG do_clk2_1v8 sky130_fd_sc_hd__inv_1
 x22 do_clk2_1v8 VSS_CG VSS_CG VDD_CG VDD_CG net9 sky130_fd_sc_hd__inv_1
-x8 VSS_CG VSS_CG VSS_CG VDD_CG VDD_CG VDD_CG sky130_fd_sc_hd__inv_1
-x9 VSS_CG VSS_CG VSS_CG VDD_CG VDD_CG VDD_CG sky130_fd_sc_hd__inv_1
-x10 VSS_CG VSS_CG VSS_CG VDD_CG VDD_CG VDD_CG sky130_fd_sc_hd__inv_1
+x8 VSS_CG VSS_CG VSS_CG VDD_CG VDD_CG net10 sky130_fd_sc_hd__inv_1
+x9 VSS_CG VSS_CG VSS_CG VDD_CG VDD_CG net11 sky130_fd_sc_hd__inv_1
+x10 VSS_CG VSS_CG VSS_CG VDD_CG VDD_CG net12 sky130_fd_sc_hd__inv_1
 .ends
 * Copyright 2020 The SkyWater PDK Authors
 *

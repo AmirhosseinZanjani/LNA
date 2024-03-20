@@ -360,6 +360,6 @@ C {devices/opin.sym} -120 -275 0 0 {name=p17 lab=v_core_bias}
 C {devices/ipin.sym} -190 -195 0 0 {name=p18 lab=V_CM_0v9}
 C {devices/lab_pin.sym} 480 -210 3 0 {name=p19 sig_type=std_logic lab=V_CM_0v9}
 C {LNA/lna_bias_res.sym} 180 -710 3 0 {name=X1}
-C {devices/ipin.sym} -190 -145 0 0 {name=p1 lab=tune[7:0]}
-C {devices/lab_pin.sym} 160 -750 0 0 {name=p2 sig_type=std_logic lab=tune[7:0]}
-C {devices/lab_pin.sym} 260 -780 2 0 {name=p3 sig_type=std_logic lab=VSS_CORE_BIAS}
+C {devices/ipin.sym} -190 -145 0 0 {name=p1 lab=tune[11:0]}
+C {devices/lab_pin.sym} 160 -750 0 0 {name=p2 sig_type=std_logic lab=tune[11:0]}
+C {devices/lab_pin.sym} 260 -820 2 0 {name=p3 sig_type=std_logic lab=VSS_CORE_BIAS}

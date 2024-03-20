@@ -1,0 +1,934 @@
+* PEX produced on Tue Mar 19 07:07:16 PM CET 2024 using /foss/tools/osic-multitool/iic-pex.sh with m=3 and s=1
+* NGSPICE file created from lna_biasres.ext - technology: sky130A
+
+.subckt lna_biasres respos resneg vsub
+X0 a_12176_2566.t1 a_12342_166.t1 vsub.t257 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X1 a_830_2566.t1 a_664_166.t1 vsub.t258 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X2 a_40974_2566.t0 a_40808_166.t0 vsub.t0 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X3 vsub.t147 vsub.t148 vsub.t146 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X4 a_2490_2566.t0 a_2656_166.t0 vsub.t192 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X5 a_6272_2566.t1 a_6106_166.t0 vsub.t85 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X6 a_20072_2566.t1 a_20238_166.t0 vsub.t142 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X7 a_8726_2566.t0 a_8560_166.t0 vsub.t137 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X8 vsub.t140 vsub.t141 vsub.t139 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X9 a_36528_2566.t0 a_36694_166.t0 vsub.t237 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X10 a_28632_2566.t1 a_28798_166.t1 vsub.t205 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X11 vsub.t135 vsub.t136 vsub.t134 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X12 a_35200_2566.t0 a_35034_166.t1 vsub.t71 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X13 a_21068_2566.t1 a_21234_166.t0 vsub.t133 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X14 a_8394_2566.t0 a_8228_166.t0 vsub.t20 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X15 a_9722_2566.t0 a_9556_166.t0 vsub.t132 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X16 vsub.t182 vsub.t183 vsub.t181 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X17 a_27304_2566.t0 a_27138_166.t0 vsub.t19 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X18 a_4612_2566.t0 a_4778_166.t0 vsub.t99 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X19 a_13172_2566.t0 a_13338_166.t0 vsub.t98 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X20 a_29628_2566.t1 a_29794_166.t1 vsub.t97 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X21 a_498_2566.t1 a_332_166.t1 vsub.t204 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X22 a_7268_2566.t0 a_7102_166.t0 vsub.t18 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X23 a_19408_2566.t0 a_19242_166.t1 vsub.t74 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X24 a_11844_2566.t0 a_11678_166.t0 vsub.t8 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X25 a_14832_2566.t1 a_15460_166.t1 vsub.t203 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X26 a_22064_2566.t0 a_22230_166.t1 vsub.t111 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X27 a_31086_2566.t0 a_31252_166.t1 vsub.t84 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X28 a_5608_2566.t0 a_5774_166.t1 vsub.t17 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X29 a_9390_2566.t1 a_9224_166.t0 vsub.t202 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X30 a_23190_2566.t0 a_23356_166.t0 vsub.t16 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X31 a_28300_2566.t1 a_28134_166.t0 vsub.t83 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X32 a_10718_2566.t1 a_10552_166.t1 vsub.t241 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X33 a_14168_2566.t0 a_14334_166.t0 vsub.t27 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X34 vsub.t79 vsub.t80 vsub.t78 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X35 a_12840_2566.t1 a_12674_166.t0 vsub.t46 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X36 vsub.t95 vsub.t96 vsub.t94 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X37 a_34536_2566.t0 a_34702_166.t0 vsub.t77 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X38 a_6604_2566.t1 a_6770_166.t0 vsub.t65 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X39 a_20736_2566.t1 a_20570_166.t0 vsub.t93 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X40 a_24186_2566.t1 a_24352_166.t1 vsub.t246 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X41 a_39978_2566.t1 a_40144_166.t1 vsub.t245 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X42 a_10386_2566.t0 a_10220_166.t0 vsub.t64 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X43 a_26178_2566.t0 a_26806_166.t0 vsub.t110 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X44 a_7268_2566.t1 a_7896_166.t0 vsub.t76 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X45 a_16290_2566.t1 a_16456_166.t0 vsub.t201 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X46 a_32082_2566.t1 a_32248_166.t1 vsub.t251 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X47 a_38318_2566.t1 a_38152_166.t1 vsub.t278 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X48 a_33742_2566.t1 a_34370_166.t0 vsub.t82 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X49 a_30754_2566.t0 a_30588_166.t0 vsub.t200 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X50 a_21732_2566.t0 a_21566_166.t0 vsub.t156 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X51 a_40974_2566.t1 a_41140_166.t1 vsub.t250 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X52 a_8726_2566.t1 a_8892_166.t0 vsub.t233 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X53 a_27636_2566.t1 a_27802_166.t1 vsub.t277 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X54 a_13836_2566.t1 a_13670_166.t0 vsub.t45 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X55 a_17286_2566.t0 a_17452_166.t0 vsub.t53 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X56 vsub.t91 vsub.t92 vsub.t90 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X57 a_33078_2566.t1 a_33244_166.t0 vsub.t138 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X58 a_19740_2566.t0 a_19906_166.t1 vsub.t131 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X59 a_830_2566.t0 a_996_166.t0 vsub.t130 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X60 a_39314_2566.t1 a_39148_166.t1 vsub.t189 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X61 a_31750_2566.t1 a_31584_166.t0 vsub.t188 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X62 a_25182_2566.t0 a_25348_166.t0 vsub.t50 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X63 a_23854_2566.t0 a_23688_166.t0 vsub.t44 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X64 a_27304_2566.t1 a_27470_166.t0 vsub.t129 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X65 a_14832_2566.t0 a_14666_166.t0 vsub.t61 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X66 a_1162_2566.t0 a_1328_166.t1 vsub.t43 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X67 a_15958_2566.t0 a_15792_166.t1 vsub.t89 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X68 a_19408_2566.t1 a_19574_166.t1 vsub.t199 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X69 a_35200_2566.t1 a_35366_166.t1 vsub.t155 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X70 vsub.t69 vsub.t70 vsub.t68 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X71 a_9722_2566.t1 a_9888_166.t0 vsub.t154 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X72 a_11844_2566.t1 a_12010_166.t0 vsub.t42 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X73 a_18282_2566.t0 a_18448_166.t0 vsub.t120 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X74 a_24850_2566.t1 a_24684_166.t0 vsub.t63 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X75 a_40642_2566.t0 a_40476_166.t0 vsub.t26 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X76 a_2158_2566.t0 a_2324_166.t0 vsub.t25 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X77 a_10718_2566.t0 a_10884_166.t0 vsub.t24 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X78 a_16954_2566.t1 a_16788_166.t1 vsub.t47 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X79 a_36196_2566.t0 a_36362_166.t0 vsub.t145 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X80 a_32746_2566.t1 a_32580_166.t1 vsub.t153 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X81 a_22396_2566.t0 a_22230_166.t0 vsub.t23 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X82 a_38650_2566.t0 a_38816_166.t1 vsub.t49 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X83 a_28300_2566.t0 a_28466_166.t0 vsub.t41 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X84 a_3154_2566.t1 a_3320_166.t1 vsub.t124 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X85 a_17950_2566.t1 a_17784_166.t0 vsub.t40 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X86 a_33742_2566.t0 a_33576_166.t1 vsub.t73 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X87 a_26972_2566.t1 a_26806_166.t1 vsub.t244 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X88 a_4280_2566.t1 a_4446_166.t0 vsub.t243 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X89 a_8062_2566.t1 a_7896_166.t1 vsub.t152 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X90 a_39646_2566.t1 a_39812_166.t0 vsub.t39 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X91 a_12840_2566.t0 a_13006_166.t0 vsub.t38 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X92 a_38318_2566.t0 a_38484_166.t0 vsub.t115 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X93 a_34868_2566.t1 a_34702_166.t1 vsub.t123 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X94 a_29296_2566.t1 a_29462_166.t1 vsub.t282 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X95 a_25846_2566.t1 a_25680_166.t1 vsub.t118 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X96 vsub.t127 vsub.t128 vsub.t126 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X97 vsub.t275 vsub.t276 vsub.t274 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X98 a_37192_2566.t1 a_37358_166.t1 vsub.t281 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X99 a_1826_2566.t0 a_1660_166.t0 vsub.t117 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X100 a_5276_2566.t1 a_5442_166.t1 vsub.t285 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X101 a_13836_2566.t0 a_14002_166.t0 vsub.t15 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X102 a_22396_2566.t1 a_23024_166.t1 vsub.t263 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X103 a_39314_2566.t0 a_39480_166.t1 vsub.t112 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X104 a_35864_2566.t1 a_35698_166.t1 vsub.t284 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X105 a_21732_2566.t1 a_21898_166.t1 vsub.t280 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X106 a_27968_2566.t0 a_27802_166.t0 vsub.t119 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X107 a_2822_2566.t1 a_2656_166.t1 vsub.t256 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X108 a_9058_2566.t0 a_8892_166.t1 vsub.t255 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X109 a_23854_2566.t1 a_24020_166.t0 vsub.t143 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X110 a_1494_2566.t0 a_1328_166.t0 vsub.t14 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X111 a_20404_2566.t1 a_20238_166.t1 vsub.t262 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X112 a_36860_2566.t1 a_36694_166.t1 vsub.t283 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X113 vsub.t215 vsub.t216 vsub.t214 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X114 a_10054_2566.t0 a_9888_166.t1 vsub.t167 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X115 a_12508_2566.t0 a_12342_166.t0 vsub.t7 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X116 a_15958_2566.t1 a_16124_166.t1 vsub.t231 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X117 vsub.t165 vsub.t166 vsub.t164 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X118 a_28964_2566.t0 a_28798_166.t0 vsub.t13 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X119 a_6272_2566.t0 a_6438_166.t1 vsub.t67 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X120 vsub.t5 vsub.t6 vsub.t4 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X121 a_2490_2566.t1 a_2324_166.t1 vsub.t212 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X122 a_21400_2566.t0 a_21234_166.t1 vsub.t162 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X123 vsub.t253 vsub.t254 vsub.t252 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X124 a_11050_2566.t0 a_10884_166.t1 vsub.t66 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X125 a_20072_2566.t0 a_19906_166.t0 vsub.t3 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X126 a_4944_2566.t1 a_4778_166.t1 vsub.t249 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X127 a_8394_2566.t1 a_8560_166.t1 vsub.t198 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X128 a_12176_2566.t0 a_12010_166.t1 vsub.t197 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X129 a_13504_2566.t1 a_13338_166.t1 vsub.t191 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X130 a_16954_2566.t0 a_17120_166.t0 vsub.t12 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X131 a_38982_2566.t0 a_38816_166.t0 vsub.t37 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X132 a_29960_2566.t0 a_29794_166.t0 vsub.t11 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X133 a_498_2566.t0 a_664_166.t0 vsub.t21 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X134 vsub.t108 vsub.t109 vsub.t107 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X135 a_24850_2566.t0 a_25016_166.t0 vsub.t52 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X136 a_5940_2566.t0 a_5774_166.t0 vsub.t10 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X137 a_14500_2566.t1 a_14334_166.t1 vsub.t261 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X138 a_23522_2566.t0 a_23356_166.t1 vsub.t36 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X139 a_13172_2566.t1 a_13006_166.t1 vsub.t260 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X140 a_15626_2566.t1 a_15460_166.t0 vsub.t81 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X141 a_18614_2566.t0 a_19242_166.t0 vsub.t57 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X142 a_34868_2566.t0 a_35034_166.t0 vsub.t56 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X143 a_31418_2566.t0 a_31252_166.t0 vsub.t72 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X144 a_3486_2566.t0 a_3320_166.t0 vsub.t116 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X145 a_21068_2566.t0 a_20902_166.t1 vsub.t35 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X146 a_25846_2566.t0 a_26012_166.t0 vsub.t88 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X147 a_9390_2566.t0 a_9556_166.t1 vsub.t161 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X148 a_17950_2566.t0 a_18116_166.t0 vsub.t22 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X149 a_20736_2566.t0 a_20902_166.t0 vsub.t34 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X150 a_40310_2566.t0 a_40144_166.t0 vsub.t33 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X151 a_26972_2566.t0 a_27138_166.t1 vsub.t240 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X152 a_1826_2566.t1 a_1992_166.t1 vsub.t239 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X153 a_10386_2566.t1 a_10552_166.t0 vsub.t238 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X154 a_23190_2566.t1 a_23024_166.t0 vsub.t236 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X155 a_39978_2566.t0 a_39812_166.t1 vsub.t235 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X156 a_16622_2566.t1 a_16456_166.t1 vsub.t234 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X157 a_35864_2566.t0 a_36030_166.t1 vsub.t232 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X158 a_32414_2566.t1 a_32248_166.t0 vsub.t230 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X159 a_11050_2566.t1 a_11678_166.t1 vsub.t157 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X160 vsub.t223 vsub.t224 vsub.t222 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X161 a_22064_2566.t1 a_21898_166.t0 vsub.t221 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X162 a_31086_2566.t1 a_30920_166.t1 vsub.t259 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X163 a_6936_2566.t1 a_6770_166.t1 vsub.t220 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X164 a_24518_2566.t1 a_24352_166.t0 vsub.t219 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X165 a_27968_2566.t1 a_28134_166.t1 vsub.t218 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X166 a_30754_2566.t1 a_30920_166.t0 vsub.t217 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X167 a_14168_2566.t1 a_14002_166.t1 vsub.t213 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X168 a_20404_2566.t0 a_20570_166.t1 vsub.t211 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X169 vsub.t226 vsub.t227 vsub.t225 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X170 a_3486_2566.t1 a_4114_166.t1 vsub.t187 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X171 a_12508_2566.t1 a_12674_166.t1 vsub.t186 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X172 a_16290_2566.t0 a_16124_166.t0 vsub.t185 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X173 a_33410_2566.t1 a_33244_166.t1 vsub.t184 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X174 a_32082_2566.t0 a_31916_166.t1 vsub.t180 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X175 a_2822_2566.t0 a_2988_166.t1 vsub.t179 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X176 resneg.t0 a_41140_166.t0 vsub.t178 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X177 a_37524_2566.t0 a_38152_166.t0 vsub.t172 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X178 a_34536_2566.t1 a_34370_166.t1 vsub.t171 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X179 a_28964_2566.t1 a_29130_166.t1 vsub.t173 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X180 a_25514_2566.t1 a_25348_166.t1 vsub.t170 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X181 a_24186_2566.t0 a_24020_166.t1 vsub.t169 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X182 a_17618_2566.t1 a_17452_166.t1 vsub.t168 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X183 a_36860_2566.t0 a_37026_166.t1 vsub.t163 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X184 a_4944_2566.t0 a_5110_166.t0 vsub.t160 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X185 a_13504_2566.t0 a_13670_166.t1 vsub.t48 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X186 a_19740_2566.t1 a_19574_166.t0 vsub.t196 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X187 a_35532_2566.t1 a_35366_166.t0 vsub.t75 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X188 a_31750_2566.t0 a_31916_166.t0 vsub.t55 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X189 a_21400_2566.t1 a_21566_166.t1 vsub.t271 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X190 a_29960_2566.t1 a_30588_166.t1 vsub.t248 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X191 a_25182_2566.t1 a_25016_166.t1 vsub.t151 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X192 a_18614_2566.t1 a_18448_166.t1 vsub.t195 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X193 a_27636_2566.t0 a_27470_166.t1 vsub.t150 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X194 a_17286_2566.t1 a_17120_166.t1 vsub.t210 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X195 a_33078_2566.t0 a_32912_166.t0 vsub.t54 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X196 a_1162_2566.t1 a_996_166.t1 vsub.t247 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X197 a_38982_2566.t1 a_39148_166.t0 vsub.t106 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X198 a_15626_2566.t0 a_15792_166.t0 vsub.t51 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X199 a_32746_2566.t0 a_32912_166.t1 vsub.t100 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X200 vsub.t268 vsub.t269 vsub.t267 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X201 a_31418_2566.t1 a_31584_166.t1 vsub.t266 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X202 a_40642_2566.t1 a_40808_166.t1 vsub.t62 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X203 a_28632_2566.t0 a_28466_166.t1 vsub.t122 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X204 a_14500_2566.t0 a_14666_166.t1 vsub.t87 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X205 a_18282_2566.t1 a_18116_166.t1 vsub.t229 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X206 a_23522_2566.t1 a_23688_166.t1 vsub.t125 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X207 a_5940_2566.t1 a_6106_166.t1 vsub.t272 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X208 a_36528_2566.t1 a_36362_166.t1 vsub.t242 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X209 a_4612_2566.t1 a_4446_166.t1 vsub.t265 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X210 a_32414_2566.t0 a_32580_166.t0 vsub.t105 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X211 a_26178_2566.t1 a_26012_166.t1 vsub.t270 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X212 a_38650_2566.t1 a_38484_166.t1 vsub.t194 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X213 respos.t0 a_332_166.t0 vsub.t32 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X214 a_6936_2566.t0 a_7102_166.t1 vsub.t193 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X215 a_24518_2566.t0 a_24684_166.t1 vsub.t159 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X216 a_40310_2566.t1 a_40476_166.t1 vsub.t149 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X217 a_2158_2566.t1 a_1992_166.t0 vsub.t31 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X218 a_37524_2566.t1 a_37358_166.t0 vsub.t264 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X219 vsub.t59 vsub.t60 vsub.t58 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X220 a_8062_2566.t0 a_8228_166.t1 vsub.t121 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X221 a_16622_2566.t0 a_16788_166.t0 vsub.t30 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X222 a_36196_2566.t1 a_36030_166.t0 vsub.t190 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X223 a_4280_2566.t0 a_4114_166.t0 vsub.t177 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X224 a_29628_2566.t0 a_29462_166.t0 vsub.t86 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X225 vsub.t103 vsub.t104 vsub.t102 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X226 a_25514_2566.t0 a_25680_166.t0 vsub.t29 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X227 a_3154_2566.t0 a_2988_166.t0 vsub.t114 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X228 a_5608_2566.t1 a_5442_166.t0 vsub.t113 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X229 a_9058_2566.t1 a_9224_166.t1 vsub.t273 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X230 a_17618_2566.t0 a_17784_166.t1 vsub.t144 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X231 a_37192_2566.t0 a_37026_166.t0 vsub.t101 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X232 a_33410_2566.t0 a_33576_166.t0 vsub.t2 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X233 a_1494_2566.t1 a_1660_166.t1 vsub.t228 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X234 a_39646_2566.t0 a_39480_166.t0 vsub.t28 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X235 a_10054_2566.t1 a_10220_166.t1 vsub.t209 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X236 a_29296_2566.t0 a_29130_166.t0 vsub.t158 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X237 vsub.t207 vsub.t208 vsub.t206 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X238 a_6604_2566.t0 a_6438_166.t0 vsub.t1 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X239 vsub.t175 vsub.t176 vsub.t174 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X240 a_5276_2566.t0 a_5110_166.t1 vsub.t279 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+X241 a_35532_2566.t0 a_35698_166.t0 vsub.t9 sky130_fd_pr__res_xhigh_po_0p35 l=9.84
+R0 a_12176_2566.t0 a_12176_2566.t1 5.00365
+R1 a_12342_166.t0 a_12342_166.t1 5.00365
+R2 vsub.n171 vsub.n168 8760.71
+R3 vsub.n171 vsub.n169 8760.71
+R4 vsub.n14 vsub.n11 8760.71
+R5 vsub.n14 vsub.n12 8760.71
+R6 vsub.n111 vsub.n108 8760.71
+R7 vsub.n111 vsub.n109 8760.71
+R8 vsub.n19 vsub.n16 8760.71
+R9 vsub.n19 vsub.n17 8760.71
+R10 vsub.n92 vsub.n89 8760.71
+R11 vsub.n92 vsub.n90 8760.71
+R12 vsub.n24 vsub.n21 8760.71
+R13 vsub.n24 vsub.n22 8760.71
+R14 vsub.n73 vsub.n70 8760.71
+R15 vsub.n73 vsub.n71 8760.71
+R16 vsub.n29 vsub.n26 8760.71
+R17 vsub.n29 vsub.n27 8760.71
+R18 vsub.n54 vsub.n51 8760.71
+R19 vsub.n54 vsub.n52 8760.71
+R20 vsub.n34 vsub.n31 8760.71
+R21 vsub.n34 vsub.n32 8760.71
+R22 vsub vsub.n174 1351.53
+R23 vsub.n61 vsub.n57 643.013
+R24 vsub.n62 vsub.n61 643.013
+R25 vsub.n80 vsub.n76 643.013
+R26 vsub.n81 vsub.n80 643.013
+R27 vsub.n99 vsub.n95 643.013
+R28 vsub.n100 vsub.n99 643.013
+R29 vsub.n118 vsub.n114 643.013
+R30 vsub.n119 vsub.n118 643.013
+R31 vsub.n9 vsub.n8 643.013
+R32 vsub.n8 vsub.n0 643.013
+R33 vsub.n159 vsub.n158 643.013
+R34 vsub.n151 vsub.n150 643.013
+R35 vsub.n152 vsub.n151 643.013
+R36 vsub.n143 vsub.n142 643.013
+R37 vsub.n144 vsub.n143 643.013
+R38 vsub.n135 vsub.n134 643.013
+R39 vsub.n136 vsub.n135 643.013
+R40 vsub.n127 vsub.n126 643.013
+R41 vsub.n128 vsub.n127 643.013
+R42 vsub.n42 vsub.n38 643.013
+R43 vsub.n43 vsub.n42 643.013
+R44 vsub.n123 vsub.n122 643.013
+R45 vsub.n124 vsub.n123 643.013
+R46 vsub.n49 vsub.n45 643.013
+R47 vsub.n50 vsub.n49 643.013
+R48 vsub.n131 vsub.n130 643.013
+R49 vsub.n132 vsub.n131 643.013
+R50 vsub.n68 vsub.n64 643.013
+R51 vsub.n69 vsub.n68 643.013
+R52 vsub.n139 vsub.n138 643.013
+R53 vsub.n140 vsub.n139 643.013
+R54 vsub.n87 vsub.n83 643.013
+R55 vsub.n88 vsub.n87 643.013
+R56 vsub.n147 vsub.n146 643.013
+R57 vsub.n148 vsub.n147 643.013
+R58 vsub.n106 vsub.n102 643.013
+R59 vsub.n107 vsub.n106 643.013
+R60 vsub.n155 vsub.n154 643.013
+R61 vsub.n156 vsub.n155 643.013
+R62 vsub.n163 vsub.n121 643.013
+R63 vsub.n164 vsub.n163 643.013
+R64 vsub.n4 vsub.n3 643.013
+R65 vsub.n38 vsub.n37 611.765
+R66 vsub.n3 vsub.n2 611.765
+R67 vsub.n2 vsub 598.966
+R68 vsub.n44 vsub.n35 569.225
+R69 vsub.n56 vsub.n55 569.225
+R70 vsub.n63 vsub.n30 569.225
+R71 vsub.n75 vsub.n74 569.225
+R72 vsub.n82 vsub.n25 569.225
+R73 vsub.n94 vsub.n93 569.225
+R74 vsub.n101 vsub.n20 569.225
+R75 vsub.n113 vsub.n112 569.225
+R76 vsub.n120 vsub.n15 569.225
+R77 vsub.n172 vsub.n167 569.225
+R78 vsub.n173 vsub.n172 569.225
+R79 vsub.n9 vsub 346.586
+R80 vsub.t102 vsub.t178 230.847
+R81 vsub.t178 vsub.t250 230.847
+R82 vsub.t62 vsub.t0 230.847
+R83 vsub.t26 vsub.t62 230.847
+R84 vsub.t149 vsub.t26 230.847
+R85 vsub.t33 vsub.t149 230.847
+R86 vsub.t245 vsub.t33 230.847
+R87 vsub.t235 vsub.t245 230.847
+R88 vsub.t39 vsub.t235 230.847
+R89 vsub.t28 vsub.t112 230.847
+R90 vsub.t112 vsub.t189 230.847
+R91 vsub.t189 vsub.t106 230.847
+R92 vsub.t106 vsub.t37 230.847
+R93 vsub.t194 vsub.t49 230.847
+R94 vsub.t115 vsub.t194 230.847
+R95 vsub.t278 vsub.t115 230.847
+R96 vsub.t172 vsub.t278 230.847
+R97 vsub.t164 vsub.t172 230.847
+R98 vsub.t181 vsub.t264 230.847
+R99 vsub.t264 vsub.t281 230.847
+R100 vsub.t163 vsub.t101 230.847
+R101 vsub.t283 vsub.t163 230.847
+R102 vsub.t237 vsub.t283 230.847
+R103 vsub.t242 vsub.t237 230.847
+R104 vsub.t145 vsub.t242 230.847
+R105 vsub.t190 vsub.t145 230.847
+R106 vsub.t232 vsub.t190 230.847
+R107 vsub.t284 vsub.t9 230.847
+R108 vsub.t9 vsub.t75 230.847
+R109 vsub.t75 vsub.t155 230.847
+R110 vsub.t155 vsub.t71 230.847
+R111 vsub.t123 vsub.t56 230.847
+R112 vsub.t77 vsub.t123 230.847
+R113 vsub.t171 vsub.t77 230.847
+R114 vsub.t82 vsub.t171 230.847
+R115 vsub.t146 vsub.t82 230.847
+R116 vsub.t58 vsub.t73 230.847
+R117 vsub.t73 vsub.t2 230.847
+R118 vsub.t138 vsub.t184 230.847
+R119 vsub.t54 vsub.t138 230.847
+R120 vsub.t100 vsub.t54 230.847
+R121 vsub.t153 vsub.t100 230.847
+R122 vsub.t105 vsub.t153 230.847
+R123 vsub.t230 vsub.t105 230.847
+R124 vsub.t251 vsub.t230 230.847
+R125 vsub.t180 vsub.t55 230.847
+R126 vsub.t55 vsub.t188 230.847
+R127 vsub.t188 vsub.t266 230.847
+R128 vsub.t266 vsub.t72 230.847
+R129 vsub.t259 vsub.t84 230.847
+R130 vsub.t217 vsub.t259 230.847
+R131 vsub.t200 vsub.t217 230.847
+R132 vsub.t248 vsub.t200 230.847
+R133 vsub.t252 vsub.t248 230.847
+R134 vsub.t78 vsub.t11 230.847
+R135 vsub.t11 vsub.t97 230.847
+R136 vsub.t282 vsub.t86 230.847
+R137 vsub.t158 vsub.t282 230.847
+R138 vsub.t173 vsub.t158 230.847
+R139 vsub.t13 vsub.t173 230.847
+R140 vsub.t205 vsub.t13 230.847
+R141 vsub.t122 vsub.t205 230.847
+R142 vsub.t41 vsub.t122 230.847
+R143 vsub.t83 vsub.t218 230.847
+R144 vsub.t218 vsub.t119 230.847
+R145 vsub.t119 vsub.t277 230.847
+R146 vsub.t277 vsub.t150 230.847
+R147 vsub.t19 vsub.t129 230.847
+R148 vsub.t240 vsub.t19 230.847
+R149 vsub.t244 vsub.t240 230.847
+R150 vsub.t110 vsub.t244 230.847
+R151 vsub.t225 vsub.t110 230.847
+R152 vsub.t68 vsub.t270 230.847
+R153 vsub.t270 vsub.t88 230.847
+R154 vsub.t29 vsub.t118 230.847
+R155 vsub.t170 vsub.t29 230.847
+R156 vsub.t50 vsub.t170 230.847
+R157 vsub.t151 vsub.t50 230.847
+R158 vsub.t52 vsub.t151 230.847
+R159 vsub.t63 vsub.t52 230.847
+R160 vsub.t159 vsub.t63 230.847
+R161 vsub.t219 vsub.t246 230.847
+R162 vsub.t246 vsub.t169 230.847
+R163 vsub.t169 vsub.t143 230.847
+R164 vsub.t143 vsub.t44 230.847
+R165 vsub.t36 vsub.t125 230.847
+R166 vsub.t16 vsub.t36 230.847
+R167 vsub.t236 vsub.t16 230.847
+R168 vsub.t263 vsub.t236 230.847
+R169 vsub.t90 vsub.t263 230.847
+R170 vsub.t267 vsub.t23 230.847
+R171 vsub.t23 vsub.t111 230.847
+R172 vsub.t280 vsub.t221 230.847
+R173 vsub.t156 vsub.t280 230.847
+R174 vsub.t271 vsub.t156 230.847
+R175 vsub.t162 vsub.t271 230.847
+R176 vsub.t133 vsub.t162 230.847
+R177 vsub.t35 vsub.t133 230.847
+R178 vsub.t34 vsub.t35 230.847
+R179 vsub.t93 vsub.t211 230.847
+R180 vsub.t211 vsub.t262 230.847
+R181 vsub.t262 vsub.t142 230.847
+R182 vsub.t142 vsub.t3 230.847
+R183 vsub.t196 vsub.t131 230.847
+R184 vsub.t199 vsub.t196 230.847
+R185 vsub.t74 vsub.t199 230.847
+R186 vsub.t57 vsub.t74 230.847
+R187 vsub.t94 vsub.t57 230.847
+R188 vsub.t174 vsub.t195 230.847
+R189 vsub.t195 vsub.t120 230.847
+R190 vsub.t22 vsub.t229 230.847
+R191 vsub.t40 vsub.t22 230.847
+R192 vsub.t144 vsub.t40 230.847
+R193 vsub.t168 vsub.t144 230.847
+R194 vsub.t53 vsub.t168 230.847
+R195 vsub.t210 vsub.t53 230.847
+R196 vsub.t12 vsub.t210 230.847
+R197 vsub.t47 vsub.t30 230.847
+R198 vsub.t30 vsub.t234 230.847
+R199 vsub.t234 vsub.t201 230.847
+R200 vsub.t201 vsub.t185 230.847
+R201 vsub.t89 vsub.t231 230.847
+R202 vsub.t51 vsub.t89 230.847
+R203 vsub.t81 vsub.t51 230.847
+R204 vsub.t203 vsub.t81 230.847
+R205 vsub.t222 vsub.t203 230.847
+R206 vsub.t4 vsub.t61 230.847
+R207 vsub.t61 vsub.t87 230.847
+R208 vsub.t27 vsub.t261 230.847
+R209 vsub.t213 vsub.t27 230.847
+R210 vsub.t15 vsub.t213 230.847
+R211 vsub.t45 vsub.t15 230.847
+R212 vsub.t48 vsub.t45 230.847
+R213 vsub.t191 vsub.t48 230.847
+R214 vsub.t98 vsub.t191 230.847
+R215 vsub.t260 vsub.t38 230.847
+R216 vsub.t38 vsub.t46 230.847
+R217 vsub.t46 vsub.t186 230.847
+R218 vsub.t186 vsub.t7 230.847
+R219 vsub.t197 vsub.t257 230.847
+R220 vsub.t42 vsub.t197 230.847
+R221 vsub.t8 vsub.t42 230.847
+R222 vsub.t157 vsub.t8 230.847
+R223 vsub.t274 vsub.t157 230.847
+R224 vsub.t139 vsub.t66 230.847
+R225 vsub.t66 vsub.t24 230.847
+R226 vsub.t238 vsub.t241 230.847
+R227 vsub.t64 vsub.t238 230.847
+R228 vsub.t209 vsub.t64 230.847
+R229 vsub.t167 vsub.t209 230.847
+R230 vsub.t154 vsub.t167 230.847
+R231 vsub.t132 vsub.t154 230.847
+R232 vsub.t161 vsub.t132 230.847
+R233 vsub.t202 vsub.t273 230.847
+R234 vsub.t273 vsub.t255 230.847
+R235 vsub.t255 vsub.t233 230.847
+R236 vsub.t233 vsub.t137 230.847
+R237 vsub.t20 vsub.t198 230.847
+R238 vsub.t121 vsub.t20 230.847
+R239 vsub.t152 vsub.t121 230.847
+R240 vsub.t76 vsub.t152 230.847
+R241 vsub.t206 vsub.t76 230.847
+R242 vsub.t107 vsub.t18 230.847
+R243 vsub.t18 vsub.t193 230.847
+R244 vsub.t65 vsub.t220 230.847
+R245 vsub.t1 vsub.t65 230.847
+R246 vsub.t67 vsub.t1 230.847
+R247 vsub.t85 vsub.t67 230.847
+R248 vsub.t272 vsub.t85 230.847
+R249 vsub.t10 vsub.t272 230.847
+R250 vsub.t17 vsub.t10 230.847
+R251 vsub.t113 vsub.t285 230.847
+R252 vsub.t285 vsub.t279 230.847
+R253 vsub.t279 vsub.t160 230.847
+R254 vsub.t160 vsub.t249 230.847
+R255 vsub.t265 vsub.t99 230.847
+R256 vsub.t243 vsub.t265 230.847
+R257 vsub.t177 vsub.t243 230.847
+R258 vsub.t187 vsub.t177 230.847
+R259 vsub.t214 vsub.t187 230.847
+R260 vsub.t134 vsub.t116 230.847
+R261 vsub.t116 vsub.t124 230.847
+R262 vsub.t124 vsub.t114 230.847
+R263 vsub.t114 vsub.t179 230.847
+R264 vsub.t192 vsub.t256 230.847
+R265 vsub.t212 vsub.t192 230.847
+R266 vsub.t25 vsub.t212 230.847
+R267 vsub.t31 vsub.t25 230.847
+R268 vsub.t239 vsub.t31 230.847
+R269 vsub.t117 vsub.t228 230.847
+R270 vsub.t228 vsub.t14 230.847
+R271 vsub.t14 vsub.t43 230.847
+R272 vsub.t43 vsub.t247 230.847
+R273 vsub.t247 vsub.t130 230.847
+R274 vsub.t130 vsub.t258 230.847
+R275 vsub.t258 vsub.t21 230.847
+R276 vsub.t32 vsub.t204 230.847
+R277 vsub.t126 vsub.t32 230.847
+R278 vsub.n36 vsub.t102 205.821
+R279 vsub.n1 vsub.t126 205.821
+R280 vsub.n33 vsub.t164 205.815
+R281 vsub.n33 vsub.t181 205.815
+R282 vsub.n53 vsub.t146 205.815
+R283 vsub.n53 vsub.t58 205.815
+R284 vsub.n28 vsub.t252 205.815
+R285 vsub.n28 vsub.t78 205.815
+R286 vsub.n72 vsub.t225 205.815
+R287 vsub.n72 vsub.t68 205.815
+R288 vsub.n23 vsub.t90 205.815
+R289 vsub.n23 vsub.t267 205.815
+R290 vsub.n91 vsub.t94 205.815
+R291 vsub.n91 vsub.t174 205.815
+R292 vsub.n18 vsub.t222 205.815
+R293 vsub.n18 vsub.t4 205.815
+R294 vsub.n110 vsub.t274 205.815
+R295 vsub.n110 vsub.t139 205.815
+R296 vsub.n13 vsub.t206 205.815
+R297 vsub.n13 vsub.t107 205.815
+R298 vsub.n170 vsub.t214 205.815
+R299 vsub.n170 vsub.t134 205.815
+R300 vsub.n40 vsub.t39 115.424
+R301 vsub.n40 vsub.t28 115.424
+R302 vsub.n47 vsub.t232 115.424
+R303 vsub.n47 vsub.t284 115.424
+R304 vsub.n59 vsub.t251 115.424
+R305 vsub.n59 vsub.t180 115.424
+R306 vsub.n66 vsub.t41 115.424
+R307 vsub.n66 vsub.t83 115.424
+R308 vsub.n78 vsub.t159 115.424
+R309 vsub.n78 vsub.t219 115.424
+R310 vsub.n85 vsub.t34 115.424
+R311 vsub.n85 vsub.t93 115.424
+R312 vsub.n97 vsub.t12 115.424
+R313 vsub.n97 vsub.t47 115.424
+R314 vsub.n104 vsub.t98 115.424
+R315 vsub.n104 vsub.t260 115.424
+R316 vsub.n116 vsub.t161 115.424
+R317 vsub.n116 vsub.t202 115.424
+R318 vsub.n161 vsub.t17 115.424
+R319 vsub.n161 vsub.t113 115.424
+R320 vsub.n6 vsub.t239 115.424
+R321 vsub.n6 vsub.t117 115.424
+R322 vsub.n62 vsub.t254 60.2028
+R323 vsub.n57 vsub.t60 60.2028
+R324 vsub.n81 vsub.t92 60.2028
+R325 vsub.n76 vsub.t70 60.2028
+R326 vsub.n100 vsub.t224 60.2028
+R327 vsub.n95 vsub.t176 60.2028
+R328 vsub.n119 vsub.t208 60.2028
+R329 vsub.n114 vsub.t141 60.2028
+R330 vsub.n0 vsub.t128 60.2028
+R331 vsub.n165 vsub.t215 60.2028
+R332 vsub.n158 vsub.t108 60.2028
+R333 vsub.n152 vsub.t275 60.2028
+R334 vsub.n150 vsub.t5 60.2028
+R335 vsub.n144 vsub.t95 60.2028
+R336 vsub.n142 vsub.t268 60.2028
+R337 vsub.n136 vsub.t226 60.2028
+R338 vsub.n134 vsub.t79 60.2028
+R339 vsub.n128 vsub.t147 60.2028
+R340 vsub.n126 vsub.t182 60.2028
+R341 vsub.n43 vsub.t166 60.2028
+R342 vsub.n38 vsub.t104 60.2028
+R343 vsub.n122 vsub.t103 60.2028
+R344 vsub.n124 vsub.t165 60.2028
+R345 vsub.n45 vsub.t183 60.2028
+R346 vsub.n50 vsub.t148 60.2028
+R347 vsub.n130 vsub.t59 60.2028
+R348 vsub.n132 vsub.t253 60.2028
+R349 vsub.n64 vsub.t80 60.2028
+R350 vsub.n69 vsub.t227 60.2028
+R351 vsub.n138 vsub.t69 60.2028
+R352 vsub.n140 vsub.t91 60.2028
+R353 vsub.n83 vsub.t269 60.2028
+R354 vsub.n88 vsub.t96 60.2028
+R355 vsub.n146 vsub.t175 60.2028
+R356 vsub.n148 vsub.t223 60.2028
+R357 vsub.n102 vsub.t6 60.2028
+R358 vsub.n107 vsub.t276 60.2028
+R359 vsub.n154 vsub.t140 60.2028
+R360 vsub.n156 vsub.t207 60.2028
+R361 vsub.n121 vsub.t109 60.2028
+R362 vsub.n164 vsub.t216 60.2028
+R363 vsub.n166 vsub.t135 60.2028
+R364 vsub.n3 vsub.t127 60.2028
+R365 vsub.n125 vsub.n124 42.5417
+R366 vsub.n126 vsub.n125 42.5417
+R367 vsub.n44 vsub.n43 42.5417
+R368 vsub.n45 vsub.n44 42.5417
+R369 vsub.n56 vsub.n50 42.5417
+R370 vsub.n57 vsub.n56 42.5417
+R371 vsub.n129 vsub.n128 42.5417
+R372 vsub.n130 vsub.n129 42.5417
+R373 vsub.n133 vsub.n132 42.5417
+R374 vsub.n134 vsub.n133 42.5417
+R375 vsub.n63 vsub.n62 42.5417
+R376 vsub.n64 vsub.n63 42.5417
+R377 vsub.n75 vsub.n69 42.5417
+R378 vsub.n76 vsub.n75 42.5417
+R379 vsub.n137 vsub.n136 42.5417
+R380 vsub.n138 vsub.n137 42.5417
+R381 vsub.n141 vsub.n140 42.5417
+R382 vsub.n142 vsub.n141 42.5417
+R383 vsub.n82 vsub.n81 42.5417
+R384 vsub.n83 vsub.n82 42.5417
+R385 vsub.n94 vsub.n88 42.5417
+R386 vsub.n95 vsub.n94 42.5417
+R387 vsub.n145 vsub.n144 42.5417
+R388 vsub.n146 vsub.n145 42.5417
+R389 vsub.n149 vsub.n148 42.5417
+R390 vsub.n150 vsub.n149 42.5417
+R391 vsub.n101 vsub.n100 42.5417
+R392 vsub.n102 vsub.n101 42.5417
+R393 vsub.n113 vsub.n107 42.5417
+R394 vsub.n114 vsub.n113 42.5417
+R395 vsub.n153 vsub.n152 42.5417
+R396 vsub.n154 vsub.n153 42.5417
+R397 vsub.n157 vsub.n156 42.5417
+R398 vsub.n158 vsub.n157 42.5417
+R399 vsub.n120 vsub.n119 42.5417
+R400 vsub.n121 vsub.n120 42.5417
+R401 vsub.n173 vsub.n164 42.5417
+R402 vsub.n174 vsub.n173 42.5417
+R403 vsub.n167 vsub.n165 42.5417
+R404 vsub.n167 vsub.n166 42.5417
+R405 vsub.n10 vsub.t136 39.54
+R406 vsub.n0 vsub 39.1534
+R407 vsub vsub.n0 12.8005
+R408 vsub.n174 vsub.n10 3.44665
+R409 vsub.n10 vsub.n9 3.44665
+R410 vsub.n0 vsub 3.10907
+R411 vsub.n37 vsub.n36 0.00521919
+R412 vsub.n35 vsub.n34 0.00521919
+R413 vsub.n34 vsub.n33 0.00521919
+R414 vsub.n55 vsub.n54 0.00521919
+R415 vsub.n54 vsub.n53 0.00521919
+R416 vsub.n30 vsub.n29 0.00521919
+R417 vsub.n29 vsub.n28 0.00521919
+R418 vsub.n74 vsub.n73 0.00521919
+R419 vsub.n73 vsub.n72 0.00521919
+R420 vsub.n25 vsub.n24 0.00521919
+R421 vsub.n24 vsub.n23 0.00521919
+R422 vsub.n93 vsub.n92 0.00521919
+R423 vsub.n92 vsub.n91 0.00521919
+R424 vsub.n20 vsub.n19 0.00521919
+R425 vsub.n19 vsub.n18 0.00521919
+R426 vsub.n112 vsub.n111 0.00521919
+R427 vsub.n111 vsub.n110 0.00521919
+R428 vsub.n15 vsub.n14 0.00521919
+R429 vsub.n14 vsub.n13 0.00521919
+R430 vsub.n172 vsub.n171 0.00521919
+R431 vsub.n171 vsub.n170 0.00521919
+R432 vsub.n2 vsub.n1 0.00521919
+R433 vsub.n47 vsub.n46 0.00426744
+R434 vsub.n66 vsub.n65 0.00426744
+R435 vsub.n85 vsub.n84 0.00426744
+R436 vsub.n104 vsub.n103 0.00426744
+R437 vsub.n160 vsub.n159 0.00426744
+R438 vsub.n161 vsub.n160 0.00426744
+R439 vsub.n8 vsub.n7 0.00426744
+R440 vsub.n7 vsub.n6 0.00426744
+R441 vsub.n118 vsub.n117 0.00426744
+R442 vsub.n117 vsub.n116 0.00426744
+R443 vsub.n99 vsub.n98 0.00426744
+R444 vsub.n98 vsub.n97 0.00426744
+R445 vsub.n80 vsub.n79 0.00426744
+R446 vsub.n79 vsub.n78 0.00426744
+R447 vsub.n61 vsub.n60 0.00426744
+R448 vsub.n60 vsub.n59 0.00426744
+R449 vsub.n42 vsub.n41 0.00426744
+R450 vsub.n41 vsub.n40 0.00426744
+R451 vsub.n40 vsub.n39 0.00426744
+R452 vsub.n48 vsub.n47 0.00426744
+R453 vsub.n49 vsub.n48 0.00426744
+R454 vsub.n59 vsub.n58 0.00426744
+R455 vsub.n68 vsub.n67 0.00426744
+R456 vsub.n67 vsub.n66 0.00426744
+R457 vsub.n78 vsub.n77 0.00426744
+R458 vsub.n87 vsub.n86 0.00426744
+R459 vsub.n86 vsub.n85 0.00426744
+R460 vsub.n97 vsub.n96 0.00426744
+R461 vsub.n106 vsub.n105 0.00426744
+R462 vsub.n105 vsub.n104 0.00426744
+R463 vsub.n116 vsub.n115 0.00426744
+R464 vsub.n163 vsub.n162 0.00426744
+R465 vsub.n162 vsub.n161 0.00426744
+R466 vsub.n5 vsub.n4 0.00426744
+R467 vsub.n6 vsub.n5 0.00426744
+R468 a_830_2566.t0 a_830_2566.t1 5.00365
+R469 a_664_166.t0 a_664_166.t1 5.00365
+R470 a_40974_2566.t0 a_40974_2566.t1 5.00365
+R471 a_40808_166.t0 a_40808_166.t1 5.00365
+R472 a_2490_2566.t0 a_2490_2566.t1 5.00365
+R473 a_2656_166.t0 a_2656_166.t1 5.00365
+R474 a_6272_2566.t0 a_6272_2566.t1 5.00365
+R475 a_6106_166.t0 a_6106_166.t1 5.00365
+R476 a_20072_2566.t0 a_20072_2566.t1 5.00365
+R477 a_20238_166.t0 a_20238_166.t1 5.00365
+R478 a_8726_2566.t0 a_8726_2566.t1 5.00365
+R479 a_8560_166.t0 a_8560_166.t1 5.00365
+R480 a_36528_2566.t0 a_36528_2566.t1 5.00365
+R481 a_36694_166.t0 a_36694_166.t1 5.00365
+R482 a_28632_2566.t0 a_28632_2566.t1 5.00365
+R483 a_28798_166.t0 a_28798_166.t1 5.00365
+R484 a_35200_2566.t0 a_35200_2566.t1 5.00365
+R485 a_35034_166.t0 a_35034_166.t1 5.00365
+R486 a_21068_2566.t0 a_21068_2566.t1 5.00365
+R487 a_21234_166.t0 a_21234_166.t1 5.00365
+R488 a_8394_2566.t0 a_8394_2566.t1 5.00365
+R489 a_8228_166.t0 a_8228_166.t1 5.00365
+R490 a_9722_2566.t0 a_9722_2566.t1 5.00365
+R491 a_9556_166.t0 a_9556_166.t1 5.00365
+R492 a_27304_2566.t0 a_27304_2566.t1 5.00365
+R493 a_27138_166.t0 a_27138_166.t1 5.00365
+R494 a_4612_2566.t0 a_4612_2566.t1 5.00365
+R495 a_4778_166.t0 a_4778_166.t1 5.00365
+R496 a_13172_2566.t0 a_13172_2566.t1 5.00365
+R497 a_13338_166.t0 a_13338_166.t1 5.00365
+R498 a_29628_2566.t0 a_29628_2566.t1 5.00365
+R499 a_29794_166.t0 a_29794_166.t1 5.00365
+R500 a_498_2566.t0 a_498_2566.t1 5.00365
+R501 a_332_166.t0 a_332_166.t1 5.00365
+R502 a_7268_2566.t0 a_7268_2566.t1 9.76129
+R503 a_7102_166.t0 a_7102_166.t1 5.00365
+R504 a_19408_2566.t0 a_19408_2566.t1 5.00365
+R505 a_19242_166.t0 a_19242_166.t1 5.00365
+R506 a_11844_2566.t0 a_11844_2566.t1 5.00365
+R507 a_11678_166.t0 a_11678_166.t1 5.00365
+R508 a_14832_2566.t0 a_14832_2566.t1 9.76129
+R509 a_15460_166.t0 a_15460_166.t1 5.00365
+R510 a_22064_2566.t0 a_22064_2566.t1 5.00365
+R511 a_22230_166.t0 a_22230_166.t1 5.00365
+R512 a_31086_2566.t0 a_31086_2566.t1 5.00365
+R513 a_31252_166.t0 a_31252_166.t1 5.00365
+R514 a_5608_2566.t0 a_5608_2566.t1 5.00365
+R515 a_5774_166.t0 a_5774_166.t1 5.00365
+R516 a_9390_2566.t0 a_9390_2566.t1 5.00365
+R517 a_9224_166.t0 a_9224_166.t1 5.00365
+R518 a_23190_2566.t0 a_23190_2566.t1 5.00365
+R519 a_23356_166.t0 a_23356_166.t1 5.00365
+R520 a_28300_2566.t0 a_28300_2566.t1 5.00365
+R521 a_28134_166.t0 a_28134_166.t1 5.00365
+R522 a_10718_2566.t0 a_10718_2566.t1 5.00365
+R523 a_10552_166.t0 a_10552_166.t1 5.00365
+R524 a_14168_2566.t0 a_14168_2566.t1 5.00365
+R525 a_14334_166.t0 a_14334_166.t1 5.00365
+R526 a_12840_2566.t0 a_12840_2566.t1 5.00365
+R527 a_12674_166.t0 a_12674_166.t1 5.00365
+R528 a_34536_2566.t0 a_34536_2566.t1 5.00365
+R529 a_34702_166.t0 a_34702_166.t1 5.00365
+R530 a_6604_2566.t0 a_6604_2566.t1 5.00365
+R531 a_6770_166.t0 a_6770_166.t1 5.00365
+R532 a_20736_2566.t0 a_20736_2566.t1 5.00365
+R533 a_20570_166.t0 a_20570_166.t1 5.00365
+R534 a_24186_2566.t0 a_24186_2566.t1 5.00365
+R535 a_24352_166.t0 a_24352_166.t1 5.00365
+R536 a_39978_2566.t0 a_39978_2566.t1 5.00365
+R537 a_40144_166.t0 a_40144_166.t1 5.00365
+R538 a_10386_2566.t0 a_10386_2566.t1 5.00365
+R539 a_10220_166.t0 a_10220_166.t1 5.00365
+R540 a_26178_2566.t0 a_26178_2566.t1 9.76132
+R541 a_26806_166.t0 a_26806_166.t1 5.00365
+R542 a_7896_166.t0 a_7896_166.t1 5.00365
+R543 a_16290_2566.t0 a_16290_2566.t1 5.00365
+R544 a_16456_166.t0 a_16456_166.t1 5.00365
+R545 a_32082_2566.t0 a_32082_2566.t1 5.00365
+R546 a_32248_166.t0 a_32248_166.t1 5.00365
+R547 a_38318_2566.t0 a_38318_2566.t1 5.00365
+R548 a_38152_166.t0 a_38152_166.t1 5.00365
+R549 a_33742_2566.t0 a_33742_2566.t1 9.76129
+R550 a_34370_166.t0 a_34370_166.t1 5.00365
+R551 a_30754_2566.t0 a_30754_2566.t1 5.00365
+R552 a_30588_166.t0 a_30588_166.t1 5.00365
+R553 a_21732_2566.t0 a_21732_2566.t1 5.00365
+R554 a_21566_166.t0 a_21566_166.t1 5.00365
+R555 a_41140_166.t0 a_41140_166.t1 5.00365
+R556 a_8892_166.t0 a_8892_166.t1 5.00365
+R557 a_27636_2566.t0 a_27636_2566.t1 5.00365
+R558 a_27802_166.t0 a_27802_166.t1 5.00365
+R559 a_13836_2566.t0 a_13836_2566.t1 5.00365
+R560 a_13670_166.t0 a_13670_166.t1 5.00365
+R561 a_17286_2566.t0 a_17286_2566.t1 5.00365
+R562 a_17452_166.t0 a_17452_166.t1 5.00365
+R563 a_33078_2566.t0 a_33078_2566.t1 5.00365
+R564 a_33244_166.t0 a_33244_166.t1 5.00365
+R565 a_19740_2566.t0 a_19740_2566.t1 5.00365
+R566 a_19906_166.t0 a_19906_166.t1 5.00365
+R567 a_996_166.t0 a_996_166.t1 5.00365
+R568 a_39314_2566.t0 a_39314_2566.t1 5.00365
+R569 a_39148_166.t0 a_39148_166.t1 5.00365
+R570 a_31750_2566.t0 a_31750_2566.t1 5.00365
+R571 a_31584_166.t0 a_31584_166.t1 5.00365
+R572 a_25182_2566.t0 a_25182_2566.t1 5.00365
+R573 a_25348_166.t0 a_25348_166.t1 5.00365
+R574 a_23854_2566.t0 a_23854_2566.t1 5.00365
+R575 a_23688_166.t0 a_23688_166.t1 5.00365
+R576 a_27470_166.t0 a_27470_166.t1 5.00365
+R577 a_14666_166.t0 a_14666_166.t1 5.00365
+R578 a_1162_2566.t0 a_1162_2566.t1 5.00365
+R579 a_1328_166.t0 a_1328_166.t1 5.00365
+R580 a_15958_2566.t0 a_15958_2566.t1 5.00365
+R581 a_15792_166.t0 a_15792_166.t1 5.00365
+R582 a_19574_166.t0 a_19574_166.t1 5.00365
+R583 a_35366_166.t0 a_35366_166.t1 5.00365
+R584 a_9888_166.t0 a_9888_166.t1 5.00365
+R585 a_12010_166.t0 a_12010_166.t1 5.00365
+R586 a_18282_2566.t0 a_18282_2566.t1 5.00365
+R587 a_18448_166.t0 a_18448_166.t1 5.00365
+R588 a_24850_2566.t0 a_24850_2566.t1 5.00365
+R589 a_24684_166.t0 a_24684_166.t1 5.00365
+R590 a_40642_2566.t0 a_40642_2566.t1 5.00365
+R591 a_40476_166.t0 a_40476_166.t1 5.00365
+R592 a_2158_2566.t0 a_2158_2566.t1 5.00365
+R593 a_2324_166.t0 a_2324_166.t1 5.00365
+R594 a_10884_166.t0 a_10884_166.t1 5.00365
+R595 a_16954_2566.t0 a_16954_2566.t1 5.00365
+R596 a_16788_166.t0 a_16788_166.t1 5.00365
+R597 a_36196_2566.t0 a_36196_2566.t1 5.00365
+R598 a_36362_166.t0 a_36362_166.t1 5.00365
+R599 a_32746_2566.t0 a_32746_2566.t1 5.00365
+R600 a_32580_166.t0 a_32580_166.t1 5.00365
+R601 a_22396_2566.t0 a_22396_2566.t1 9.76129
+R602 a_38650_2566.t0 a_38650_2566.t1 5.00365
+R603 a_38816_166.t0 a_38816_166.t1 5.00365
+R604 a_28466_166.t0 a_28466_166.t1 5.00365
+R605 a_3154_2566.t0 a_3154_2566.t1 5.00365
+R606 a_3320_166.t0 a_3320_166.t1 5.00365
+R607 a_17950_2566.t0 a_17950_2566.t1 5.00365
+R608 a_17784_166.t0 a_17784_166.t1 5.00365
+R609 a_33576_166.t0 a_33576_166.t1 5.00365
+R610 a_26972_2566.t0 a_26972_2566.t1 5.00365
+R611 a_4280_2566.t0 a_4280_2566.t1 5.00365
+R612 a_4446_166.t0 a_4446_166.t1 5.00365
+R613 a_8062_2566.t0 a_8062_2566.t1 5.00365
+R614 a_39646_2566.t0 a_39646_2566.t1 5.00365
+R615 a_39812_166.t0 a_39812_166.t1 5.00365
+R616 a_13006_166.t0 a_13006_166.t1 5.00365
+R617 a_38484_166.t0 a_38484_166.t1 5.00365
+R618 a_34868_2566.t0 a_34868_2566.t1 5.00365
+R619 a_29296_2566.t0 a_29296_2566.t1 5.00365
+R620 a_29462_166.t0 a_29462_166.t1 5.00365
+R621 a_25846_2566.t0 a_25846_2566.t1 5.00365
+R622 a_25680_166.t0 a_25680_166.t1 5.00365
+R623 a_37192_2566.t0 a_37192_2566.t1 5.00365
+R624 a_37358_166.t0 a_37358_166.t1 5.00365
+R625 a_1826_2566.t0 a_1826_2566.t1 5.00365
+R626 a_1660_166.t0 a_1660_166.t1 5.00365
+R627 a_5276_2566.t0 a_5276_2566.t1 5.00365
+R628 a_5442_166.t0 a_5442_166.t1 5.00365
+R629 a_14002_166.t0 a_14002_166.t1 5.00365
+R630 a_23024_166.t0 a_23024_166.t1 5.00365
+R631 a_39480_166.t0 a_39480_166.t1 5.00365
+R632 a_35864_2566.t0 a_35864_2566.t1 5.00365
+R633 a_35698_166.t0 a_35698_166.t1 5.00365
+R634 a_21898_166.t0 a_21898_166.t1 5.00365
+R635 a_27968_2566.t0 a_27968_2566.t1 5.00365
+R636 a_2822_2566.t0 a_2822_2566.t1 5.00365
+R637 a_9058_2566.t0 a_9058_2566.t1 5.00365
+R638 a_24020_166.t0 a_24020_166.t1 5.00365
+R639 a_1494_2566.t0 a_1494_2566.t1 5.00365
+R640 a_20404_2566.t0 a_20404_2566.t1 5.00365
+R641 a_36860_2566.t0 a_36860_2566.t1 5.00365
+R642 a_10054_2566.t0 a_10054_2566.t1 5.00365
+R643 a_12508_2566.t0 a_12508_2566.t1 5.00365
+R644 a_16124_166.t0 a_16124_166.t1 5.00365
+R645 a_28964_2566.t0 a_28964_2566.t1 5.00365
+R646 a_6438_166.t0 a_6438_166.t1 5.00365
+R647 a_21400_2566.t0 a_21400_2566.t1 5.00365
+R648 a_11050_2566.t0 a_11050_2566.t1 9.76129
+R649 a_4944_2566.t0 a_4944_2566.t1 5.00365
+R650 a_13504_2566.t0 a_13504_2566.t1 5.00365
+R651 a_17120_166.t0 a_17120_166.t1 5.00365
+R652 a_38982_2566.t0 a_38982_2566.t1 5.00365
+R653 a_29960_2566.t0 a_29960_2566.t1 9.76129
+R654 a_25016_166.t0 a_25016_166.t1 5.00365
+R655 a_5940_2566.t0 a_5940_2566.t1 5.00365
+R656 a_14500_2566.t0 a_14500_2566.t1 5.00365
+R657 a_23522_2566.t0 a_23522_2566.t1 5.00365
+R658 a_15626_2566.t0 a_15626_2566.t1 5.00365
+R659 a_18614_2566.t0 a_18614_2566.t1 9.76132
+R660 a_31418_2566.t0 a_31418_2566.t1 5.00365
+R661 a_3486_2566.t0 a_3486_2566.t1 9.76129
+R662 a_20902_166.t0 a_20902_166.t1 5.00365
+R663 a_26012_166.t0 a_26012_166.t1 5.00365
+R664 a_18116_166.t0 a_18116_166.t1 5.00365
+R665 a_40310_2566.t0 a_40310_2566.t1 5.00365
+R666 a_1992_166.t0 a_1992_166.t1 5.00365
+R667 a_16622_2566.t0 a_16622_2566.t1 5.00365
+R668 a_36030_166.t0 a_36030_166.t1 5.00365
+R669 a_32414_2566.t0 a_32414_2566.t1 5.00365
+R670 a_30920_166.t0 a_30920_166.t1 5.00365
+R671 a_6936_2566.t0 a_6936_2566.t1 5.00365
+R672 a_24518_2566.t0 a_24518_2566.t1 5.00365
+R673 a_4114_166.t0 a_4114_166.t1 5.00365
+R674 a_33410_2566.t0 a_33410_2566.t1 5.00365
+R675 a_31916_166.t0 a_31916_166.t1 5.00365
+R676 a_2988_166.t0 a_2988_166.t1 5.00365
+R677 resneg resneg.t0 4.86756
+R678 a_37524_2566.t0 a_37524_2566.t1 9.76132
+R679 a_29130_166.t0 a_29130_166.t1 5.00365
+R680 a_25514_2566.t0 a_25514_2566.t1 5.00365
+R681 a_17618_2566.t0 a_17618_2566.t1 5.00365
+R682 a_37026_166.t0 a_37026_166.t1 5.00365
+R683 a_5110_166.t0 a_5110_166.t1 5.00365
+R684 a_35532_2566.t0 a_35532_2566.t1 5.00365
+R685 a_32912_166.t0 a_32912_166.t1 5.00365
+R686 respos respos.t0 4.89575
+.ends

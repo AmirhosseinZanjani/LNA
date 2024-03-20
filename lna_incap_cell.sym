@@ -1,0 +1,30 @@
+v {xschem version=3.4.5 file_version=1.2
+}
+G {}
+K {type=primitive
+format="@name @pinlist @symname"
+template="name=x1"
+}
+V {}
+S {}
+E {}
+L 4 -20 -50 20 -50 {}
+L 4 -20 -40 20 -40 {}
+L 4 -0 -40 -0 0 {}
+L 4 0 -90 0 -50 {}
+L 4 40 -50 80 -50 {}
+L 4 40 -40 80 -40 {}
+L 4 60 -40 60 0 {}
+L 4 60 -90 60 -50 {}
+B 5 57.5 -92.5 62.5 -87.5 {name=mimcap_top dir=inout}
+B 5 -2.5 -92.5 2.5 -87.5 {name=momcap_top dir=inout}
+B 5 -2.5 -2.5 2.5 2.5 {name=momcap_bot dir=inout}
+B 5 57.5 -2.5 62.5 2.5 {name=mimcap_bot dir=inout}
+B 5 137.5 -22.5 142.5 -17.5 {name=pwell dir=inout}
+T {@symname} 79 -76 0 0 0.3 0.3 {}
+T {@name} 85 -52 0 0 0.2 0.2 {}
+T {mimcap_top} 135 -94 0 1 0.2 0.2 {}
+T {momcap_top} -15 -104 0 1 0.2 0.2 {}
+T {momcap_bot} -15 -14 0 1 0.2 0.2 {}
+T {mimcap_bot} 135 -14 0 1 0.2 0.2 {}
+T {pwell} 135 -24 0 1 0.2 0.2 {}

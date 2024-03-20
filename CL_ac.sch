@@ -83,10 +83,6 @@ N -117.5 291.25 32.5 291.25 {
 lab=in_n1}
 N 92.5 291.25 292.5 291.25 {
 lab=outn}
-N -317.5 -238.75 -117.5 -238.75 {
-lab=in_p1}
-N -317.5 201.25 -117.5 201.25 {
-lab=in_n1}
 N -677.5 -238.75 -577.5 -238.75 {
 lab=VINP1}
 N -627.5 201.25 -577.5 201.25 {
@@ -101,24 +97,32 @@ N 332.5 -20 332.5 10 {
 lab=outn}
 N 332.5 10 332.5 11.25 {
 lab=outn}
-N 583.75 -60 605 -60 {
-lab=o2}
-N 583.75 -20 605 -20 {
-lab=o1}
 N 282.5 -68.75 293.75 -68.75 {
 lab=outp}
 N 102.5 101.25 102.5 180 {
 lab=#net2}
 N 491.25 132.5 491.25 150 {
 lab=CL}
-N -517.5 -238.75 -392.5 -238.75 {
+N 393.75 -30 393.75 -20 {
+lab=outn}
+N -436.25 -272.5 -436.25 -212.5 {
 lab=#net3}
-N -517.5 201.25 -392.5 201.25 {
+N -346.25 -272.5 -346.25 -212.5 {
+lab=in_p1}
+N -401.875 167.5 -401.875 227.5 {
 lab=#net4}
-N -392.5 201.25 -377.5 201.25 {
+N -311.875 167.5 -311.875 227.5 {
+lab=in_n1}
+N -517.5 201.25 -401.875 201.25 {
 lab=#net4}
-N -392.5 -238.75 -377.5 -238.75 {
+N -311.875 198.75 -118.125 198.75 {
+lab=in_n1}
+N -118.125 198.75 -117.5 198.75 {
+lab=in_n1}
+N -517.5 -238.75 -436.25 -238.75 {
 lab=#net3}
+N -346.25 -240 -117.5 -240 {
+lab=in_p1}
 C {LNA/LNA_ac.sym} 12.5 -28.75 0 0 {name=x1}
 C {devices/vsource.sym} -525 -561.25 0 0 {name=V1 value=1.8}
 C {devices/lab_pin.sym} -525 -531.25 3 0 {name=p1 sig_type=std_logic lab=0}
@@ -334,8 +338,8 @@ C {devices/lab_pin.sym} -547.5 -258.75 1 0 {name=p13 sig_type=std_logic lab=0}
 C {devices/lab_pin.sym} -547.5 181.25 1 0 {name=p14 sig_type=std_logic lab=0}
 C {LNA/AAFilter.sym} 413.75 -80 0 0 {name=x3}
 C {devices/lab_pin.sym} 483.75 20 3 0 {name=p15 sig_type=std_logic lab=0}
-C {devices/lab_pin.sym} 603.75 -60 1 0 {name=p22 sig_type=std_logic lab=o2}
-C {devices/lab_pin.sym} 603.75 -20 3 0 {name=p25 sig_type=std_logic lab=o1}
+C {devices/lab_pin.sym} 593.75 -60 2 0 {name=p22 sig_type=std_logic lab=o2}
+C {devices/lab_pin.sym} 593.75 -30 2 0 {name=p25 sig_type=std_logic lab=o1}
 C {devices/lab_pin.sym} 132.5 81.25 3 0 {name=p17 sig_type=std_logic lab=0}
 C {LNA/Bias_Core.sym} -27.5 180 0 0 {name=X2}
 C {devices/lab_pin.sym} -17.5 120 1 0 {name=p18 sig_type=std_logic lab=vdd}
@@ -368,5 +372,8 @@ C {devices/lab_pin.sym} -1103.125 470 1 0 {name=p36 sig_type=std_logic lab=tune[
 C {devices/lab_pin.sym} -1035.625 470 1 0 {name=p37 sig_type=std_logic lab=tune[4]}
 C {devices/lab_pin.sym} -968.75 470 1 0 {name=p38 sig_type=std_logic lab=tune[5]}
 C {devices/lab_pin.sym} 483.75 -100 1 0 {name=p16 sig_type=std_logic lab=tune[5:0]}
-C {sky130_fd_pr/cap_mim_m3_2.sym} -347.5 201.25 1 1 {name=C7 model=cap_mim_m3_1 W=15 L=10 MF=1500 spiceprefix=X}
-C {sky130_fd_pr/cap_mim_m3_2.sym} -347.5 -238.75 1 1 {name=C3 model=cap_mim_m3_1 W=15 L=10 MF=1500 spiceprefix=X}
+C {LNA/lna_incap_cell.sym} -436.25 -272.5 1 0 {name=x11[599:0]}
+C {devices/lab_pin.sym} -416.25 -132.5 3 0 {name=p63 sig_type=std_logic lab=0}
+C {LNA/lna_incap_cell.sym} -401.875 167.5 1 0 {name=x1[599:0]}
+C {devices/lab_pin.sym} -381.875 307.5 3 0 {name=p64 sig_type=std_logic lab=0}
+C {devices/code_shown.sym} -1276.25 -708.125 0 0 {name=s1 only_toplevel=false value=".include /foss/designs/LNA/lna_incap_cell.spice"}

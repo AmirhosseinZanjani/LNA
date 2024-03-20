@@ -1,0 +1,15 @@
+* lna_incap_cell, Ali Olyanasab, 2024
+
+.subckt lna_incap_cell pwell mimcap_top mimcap_bot momcap_top momcap_bot
+X0 mimcap_top mimcap_bot sky130_fd_pr__cap_mim_m3_1 l=17.2 w=17.2
+C0 mimcap_bot momcap_top 18.7f
+C1 mimcap_top momcap_bot 0.0885f
+C2 mimcap_top momcap_top 2.61f
+C3 momcap_top momcap_bot 0.257p
+C4 mimcap_top mimcap_bot 31.6f
+C5 mimcap_bot momcap_bot 20.9f
+C6 mimcap_top pwell 2.95f
+C7 mimcap_bot pwell 4.34f
+C8 momcap_top pwell 16.5f
+C9 momcap_bot pwell 18.6f
+.ends

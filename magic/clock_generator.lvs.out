@@ -82,11 +82,11 @@ Circuit 1: clock_generator                 |Circuit 2: clock_generator
 sky130_fd_sc_hd__inv_1 (12)                |sky130_fd_sc_hd__inv_1 (12)                
 sky130_fd_sc_hd__nand2_1 (2)               |sky130_fd_sc_hd__nand2_1 (2)               
 Number of devices: 14                      |Number of devices: 14                      
-Number of nets: 14                         |Number of nets: 14                         
+Number of nets: 17                         |Number of nets: 17                         
 ---------------------------------------------------------------------------------------
 Resolving symmetries by property value.
 Resolving symmetries by pin name.
-Netlists match with 1 symmetry.
+Netlists match with 2 symmetries.
 
 Subcircuit pins:
 Circuit 1: clock_generator                 |Circuit 2: clock_generator                 
@@ -94,8 +94,8 @@ Circuit 1: clock_generator                 |Circuit 2: clock_generator
 di_clk_1v8                                 |di_clk_1v8                                 
 do_clk2_1v8                                |do_clk2_1v8                                
 do_clk1_1v8                                |do_clk1_1v8                                
-VSS_CG                                     |VSS_CG                                     
 VDD_CG                                     |VDD_CG                                     
+VSS_CG                                     |VSS_CG                                     
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes clock_generator and clock_generator are equivalent.

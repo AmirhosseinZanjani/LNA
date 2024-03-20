@@ -830,7 +830,7 @@ descr="vds"}
 C {devices/ngspice_get_expr.sym} 1725 -590 0 0 {name=r91 node="[format %.3g [expr [ngspice::get_voltage \\\{@m.xm19.msky130_fd_pr__nfet_01v8_lvt[vds]\\\}] - [ngspice::get_voltage \\\{@m.xm19.msky130_fd_pr__nfet_01v8_lvt[vgs]\\\}] + [ngspice::get_voltage \\\{@m.xm19.msky130_fd_pr__nfet_01v8_lvt[vth]\\\}]]]"
 descr="vds-vod"}
 C {sky130_fd_pr/pfet_01v8_lvt.sym} 1145 -1080 0 1 {name=M1
-L=20
+L=10
 W=2
 nf=1
 mult=4
@@ -844,7 +844,7 @@ model=pfet_01v8_lvt
 spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8_lvt.sym} 1465 -1080 0 0 {name=M2
-L=20
+L=10
 W=2
 nf=1
 mult=1
@@ -1108,7 +1108,7 @@ C {devices/lab_pin.sym} 530 -1065 1 0 {name=p18 sig_type=std_logic lab=Vdd}
 C {LNA/lna_bias.sym} 352.5 -230 0 0 {name=X8}
 C {devices/lab_pin.sym} 392.5 -250 3 1 {name=p19 sig_type=std_logic lab=Vdd}
 C {devices/lab_pin.sym} 392.5 -130 3 0 {name=p20 sig_type=std_logic lab=0}
-C {devices/lab_pin.sym} 312.5 -190 0 0 {name=p22 sig_type=std_logic lab=VCM}
+C {devices/lab_pin.sym} 312.5 -210 0 0 {name=p22 sig_type=std_logic lab=VCM}
 C {devices/ngspice_get_value.sym} 875 -310 0 0 {name=r1 node=v(@m.xm8.msky130_fd_pr__nfet_01v8_lvt[vth])
 descr="vth"}
 C {devices/ngspice_get_value.sym} 875 -340 0 0 {name=r2 node=v(@m.xm8.msky130_fd_pr__nfet_01v8_lvt[vgs])
@@ -1149,7 +1149,7 @@ C {devices/ngspice_get_expr.sym} 1000 -870 0 0 {name=r18 node="[format %.3g [exp
 descr="vds-vod"}
 C {devices/lab_pin.sym} 1305 -935 1 0 {name=p32 sig_type=std_logic lab=VCM}
 C {sky130_fd_pr/pfet_01v8_lvt.sym} 1145 -935 0 1 {name=M3
-L=20
+L=10
 W=2
 nf=1
 mult=200
@@ -1163,7 +1163,7 @@ model=pfet_01v8_lvt
 spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8_lvt.sym} 1465 -935 0 0 {name=M7
-L=20
+L=10
 W=2
 nf=1
 mult=50

@@ -1,0 +1,13 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1710940317
+use core_inputpair  core_inputpair_0 LNA/magic
+timestamp 1710869846
+transform 1 0 49042542 0 1 12280528
+box -49051162 -12278858 -48975486 -12270640
+use core_pullup_cell  core_pullup_cell_0 LNA/magic
+timestamp 1710869846
+transform 1 0 16431 0 1 10594
+box -25011 -1497 49936 3024
+<< end >>

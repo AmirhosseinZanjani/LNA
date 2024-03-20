@@ -359,4 +359,3 @@ m=1
 value=100
 footprint=1206
 device="ceramic capacitor"}
-C {devices/lab_pin.sym} -2147.5 365 2 0 {name=p14 sig_type=std_logic lab=0}

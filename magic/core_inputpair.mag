@@ -1,0 +1,40 @@
+magic
+tech sky130A
+timestamp 1710869846
+use core_inputpair_cell  core_inputpair_cell_0
+timestamp 1710866800
+transform 1 0 -24525518 0 1 -6139739
+box -63 310 12851 2087
+use core_inputpair_cell  core_inputpair_cell_1
+timestamp 1710866800
+transform 1 0 -24525518 0 1 -6137407
+box -63 310 12851 2087
+use core_inputpair_cell  core_inputpair_cell_2
+timestamp 1710866800
+transform 1 0 -24525518 0 1 -6138573
+box -63 310 12851 2087
+use core_inputpair_cell  core_inputpair_cell_3
+timestamp 1710866800
+transform 1 0 -24513056 0 1 -6139739
+box -63 310 12851 2087
+use core_inputpair_cell  core_inputpair_cell_4
+timestamp 1710866800
+transform 1 0 -24513056 0 1 -6137407
+box -63 310 12851 2087
+use core_inputpair_cell  core_inputpair_cell_5
+timestamp 1710866800
+transform 1 0 -24513056 0 1 -6138573
+box -63 310 12851 2087
+use core_inputpair_cell  core_inputpair_cell_a_0
+timestamp 1710866800
+transform 1 0 -24500594 0 1 -6139739
+box -63 310 12851 2087
+use core_inputpair_cell  core_inputpair_cell_a_1
+timestamp 1710866800
+transform 1 0 -24500594 0 1 -6137407
+box -63 310 12851 2087
+use core_inputpair_cell  core_inputpair_cell_a_2
+timestamp 1710866800
+transform 1 0 -24500594 0 1 -6138573
+box -63 310 12851 2087
+<< end >>
